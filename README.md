@@ -6,5 +6,9 @@ Under Linux (Ubuntu) you type this command:
 
    ./makte_booklet.sh
    
-It generate the pdf and html files for the booklet. Furthermore generate it the word list for ding ( http://www-user.tu-chemnitz.de/~fri/ding/ )
+It generate the pdf and html files for the booklet and web site. Furthermore generate it the word list for ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ).
+
+The builds (pdf, html) can be downloaded from this url:
+
+http://rowa.giso.de/languages/toki-pona/english/lessons.php
 
