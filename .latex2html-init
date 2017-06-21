@@ -1,0 +1,209 @@
+# Version 1/30/2000/jos:
+
+# To adapt this file to your own needs, search for MYNAME and edit to taste.
+
+$LONG_TITLES = 3;       # Up to three non-generic words of section name
+$SCALABLE_FONTS = 1;    # => PK_GENERATION=1; DVIPS_MODE="";
+
+$EXTERNAL_UP_LINK = "../";
+$EXTERNAL_UP_TITLE = "[Up]";
+$BOTTOM_NAVIGATION = 1; # override
+$AUTO_NAVIGATION = 0; # override
+
+$ANTI_ALIAS = 1;
+
+$MATH_SCALE_FACTOR = 1.6; # default = 1.6 (looks good with 14-point in browser)
+$DISP_SCALE_FACTOR = 1.1; # extra scaling for displayed eqns (default = 1)
+$FIGURE_SCALE_FACTOR = 1.4; # default = 1.6
+$TRANSPARENT_FIGURES = 0; # default = 1
+$WHITE_BACKGROUND = 1; # default = 1, but MAKE SURE
+
+$DVIPS = "dvips -E"; # Request tight bounding box - WATCH FOR CLIPPED GFX
+
+# default = "" - need to set
+# We can't use other than a white background until
+# we fix all figures to go transparent without
+# filled blotches.
+$BODYTEXT = "BGCOLOR=\"#FFFFFF\" 
+	TEXT=\"BLACK\" 
+	LINK=\"BLACK\" 
+	ALINK=\"BLUE\"
+	VLINK=\"GRAY\""; 
+
+$PAPERSIZE = "b0"; # largest - default = a5 which can result in clipping
+
+# $ICONSERVER = 'http://myplace.edu/Images';
+# If you encounter missing icons (e.g., due to a newer version of l2h),
+# comment out the following line and copy ../icons/a_*.gif into the
+# icons directory of your latex2html installtion.
+$ICONSERVER = 'http://rowa.giso.de/latexicons/';
+
+$WORDS_IN_NAVIGATION_PANEL_TITLES = 12; # default = 4
+
+# STDADDRESS USAGE:
+# 
+# $ADDRESS = "<A HREF=\"<Title-linked-to-online-doc\"></A><BR>\n
+#	    <Authors-linked-to-home-pages><BR>\n
+#	    <Journal, pages, Publisher, Address, year.><BR>\n"
+#	    . $STDADDRESS
+#
+# STDADDRESS USAGE EXAMPLE:
+# 
+# $ADDRESS = "<A href=\"http://www.myplace.edu/~myname/src/src.html\">
+#  My Article Title</A><BR>\n
+#  Proc., XXXX International Conference on YYY and ZZZ (XCYZ-84), 
+#  San Diego, 1984.<BR>\n" . $STDADDRESS;
+
+$MYNAMEHOME = "http://rowa.giso.de";
+$MYNAME = "<A href=\"" . $MYNAMEHOME . "/\"> Robert Warnke</A>";
+$MYNAMESHORT = "<A href=\"" . $MYNAMEHOME . "/\"> Robert Warnke </A>";
+
+# $STDUPDATENOTICE = "Copyright &#169; <I>$address_data[1]</I>";
+# $STDUPDATENOTICE = "Copyright &#169; <I>Robert Warnke</I>";
+
+
+sub make_updatenotice {
+return("Copyright &#169; by <I>Robert Warnke</I> " 
+ . ($MYNAMEDOCAUTHORS ? $MYNAMEDOCAUTHORS : $MYNAME) . ".<BR>
+Please email errata, comments, and suggestions to " . 
+$MYNAME . "&lt;" . $MYNAMEEMAIL . "&gt;");
+}
+
+# $STDADDRESSNONAME = "<i><A href=\"$MYNAMEHOME\"> $MYNAMEHOME</A> | $MYNAMEEMAIL </i> \n";
+$STDADDRESSNONAME = "<i><A href=\"$MYNAMEHOME\"> $MYNAMEHOME</A></i> \n";
+
+$STDADDRESS = "<p>" . $STDUPDATENOTICE . "<BR>\n" . $STDADDRESSNONAME;
+
+sub make_myname_address {
+	$ADDRESS = "<HR>" . &make_mynamedocdir_href . "\n by" . 
+	$MYNAMEDOCAUTHORS . ", \n" . 
+	$MYNAMEDOCPUBINFO . ". \n" . 
+	($NOHARDCOPIES?
+		"" :
+		("<HR>" . 
+		"Download " . &make_mynamedoc_pdf_href . "<BR>\n" . 
+		"Download " . &make_mynamedoc_ps_href . "<BR>\n")) . 
+	($INBOOK ? 
+		("Visit the " . 
+		"<A HREF=\"../mybook/mybook.html\">book</A>" . 
+		" containing this material.<BR>\n")
+		: "") . 
+	"<HR>" . &make_updatenotice . "<BR>\n" . $STDADDRESSNONAME;
+}
+
+sub make_mynamedocdir_url {
+	$MYNAMEDOCURL = $MYNAMEHOME . "/" . $MYNAMEDOCDIR;
+}
+
+sub make_mynamedocdir_href {
+	# Assumes $MYNAMEDOCDIR, $MYNAMEDOCTITLE and $MYNAMEHOME are defined
+	$MYNAMEDOCHREF = "``<A HREF=\"" . &make_mynamedocdir_url . "/\">" .
+	$MYNAMEDOCTITLE . "</A>''";
+}
+
+sub make_mynamedoc_ps_href {
+	$MYNAMEDOCPSHREF = 
+	"<A HREF=\"./" . $MYNAMEDOCDIR . ".ps.gz\"> " .
+	"compressed PostScript version (" . $MYNAMEDOCDIR . ".ps.gz)</A>";
+}
+
+sub make_mynamedoc_pdf_href {
+	$MYNAMEDOCPSHREF = 
+	"<A HREF=\"./" . $MYNAMEDOCDIR . ".pdf\"> " .
+	"PDF version (" . $MYNAMEDOCDIR . ".pdf)</A>";
+}
+
+sub make_myname_stdaddress {
+	$STDADDRESS = "<HR>" . 
+		"Download " . 
+			&make_mynamedoc_pdf_href . " or " .
+			&make_mynamedoc_ps_href . "<BR>\n" . 
+		"<HR>" . &make_updatenotice . "<BR>\n" . $STDADDRESSNONAME;
+}
+
+# -address
+# Supply your own string if you don't like the default <Name> <Date>
+# $ADDRESS = "<I>$address_data[0]</I>\n<BR><I>$address_data[1]</I>" . $STDADDRESS;
+$ADDRESS = $STDADDRESS;
+
+# myname: added <BR> after each title line and a final <HR>
+# myname: Later simplified layout to button = name<br>
+
+sub common_navigation_panel {
+
+    # If ``next'' section exists, add its title to the navigation panel
+    ($NEXT_TITLE ? "$NEXT $NEXT_TITLE<BR>\n" : undef)
+
+    # Similarly with the ``up'' title ...
+    . ($UP_TITLE ? "$UP $UP_TITLE<BR>\n" : undef)
+
+    # ... and the ``previous'' title
+    . ($PREVIOUS_TITLE ? "$PREVIOUS $PREVIOUS_TITLE<BR>\n" : undef)
+
+    # ... and the GLOBAL INDEX link
+#    . "<A HREF=\"../mynamepubs.html\"><IMG WIDTH=\"20\" HEIGHT=\"20\" 
+#	ALIGN=\"BOTTOM\" BORDER=\"0\" 
+#	ALT=\"global_index\" SRC=\"../icons/down.png\"></A>\n
+#    <STRONG><A HREF=\"../mynamepubs.html\">Global MYNAME Index</A></STRONG>\n"
+
+    # ... and the ``contents'' title, if it exists
+    . ($CONTENTS_LINK ? " &nbsp <STRONG> $CONTENTS_LINK</STRONG>\n " : undef)
+
+    # ... and the ``index'' title, if it exists
+    . ($INDEX_LINK ? " &nbsp <STRONG> $INDEX_LINK</STRONG>\n " : undef)
+
+}
+
+sub top_navigation_panel {
+    "<!--Navigation Panel-->\n"
+    . &common_navigation_panel
+    . "\n<HR><BR>\n";
+}
+
+sub bot_navigation_panel {
+    "<HR>\n" . "<!--Navigation Panel-->"
+    . &common_navigation_panel;
+}
+
+# Override next,previous,up,down icons
+# WARNING: ICON FILENAMES MUST CONTAIN THEIR "ALT" NAMES (next,previous,up)
+$iconsizes{'up'} = 'WIDTH="20" HEIGHT="20"';
+$iconsizes{'next'} = 'WIDTH="20" HEIGHT="20"';
+$iconsizes{'previous'} = 'WIDTH="20" HEIGHT="20"';
+
+$LINKNAME = '"index$EXTN"';
+# Avoid collision between actual index and document link:
+#$LINKNAME = '"Welcome$EXTN"';
+
+# Append my own info to the default info (slightly edited):
+$WEBPUBADDRESS = "../webpub/";
+$WEBPUBFULL = "http://www-ccrma.stanford.edu/%7Ejos/webpub/";
+$ODADDRESS = "http://www.opendictionary.org";
+$INFO = join(''
+	, "<STRONG>$t_title</STRONG><P>\nThis document was generated using the\n"
+	, "<A HREF=\"$TEX2HTMLADDRESS\"><font color=\"blue\"><STRONG>LaTeX</STRONG>2<tt>HTML</tt></font></A>"
+	, " translator Version <A HREF=
+	
+$TEX2HTMLVERSION</A>\n"
+	, "<P>Copyright &#169; 1993, 1994, 1995, 1996,\n"
+	, "<A HREF=\"$AUTHORADDRESS\"><font color=\"blue\">Nikos Drakos</font></A>, \n"
+	, "Computer Based Learning Unit, University of Leeds.\n"
+	, "<BR>Copyright &#169; 1997, 1998, 1999, 2000\n"
+	, "<A HREF=\"$AUTHORADDRESS2\"><font color=\"blue\">Ross Moore</font></A>, \n"
+	, "Mathematics Department, Macquarie University, Sydney.\n"
+        , "<UL>"
+        , "<LI>The <STRONG>Makefiles</STRONG> and 
+		<STRONG>.latex2html-init</STRONG>
+		 file used to generate
+	    this website are available at
+		<A HREF=\"$WEBPUBADDRESS\"><font color=\"blue\"><b>$WEBPUBFULL</b></font></A>.\n"
+        , "<LI>Hypertext <STRONG>links</STRONG> were installed from the
+		<A HREF=\"$ODADDRESS\"><i><font color=\"blue\"><b>Open Dictionary</b></i></font></A>.\n"
+        , "</UL>"
+);
+
+$MAX_SPLIT_DEPTH = 0;
+
+# Info-Seite wird unterdrueckt
+$INFO = 0;
+1

@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Toki Pona - lessons (English)
+%% 
+%%
+%% apt-get install texlive-latex-base texlive-latex-extra texlive-luatex texlive-latex-extra texlive-pstricks rubber latex2html texlive-lang-german latex-xcolor
+%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 10pt]{book} 
+%\usepackage{ngerman}
+\usepackage{ulem}
+\usepackage{supertabular}
+\usepackage[latin1]{inputenc}
+% Indexverzeichnis erstellen:
+\usepackage{makeidx}
+\makeindex 
+\usepackage{graphicx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% html is for the html tags 
+\usepackage{html}
+% hyperref is for the hyperlinks in PDF 
+% and have to be the last packet
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{%
+	pdfauthor={ B. J. Knight, Robert Warnke},
+	pdftitle={Toki Pona -- the language of good -- the simple way of life},
+	pdfsubject={Toki Pona -- the language of good -- the simple way of life},
+	pdfkeywords={Toki Pona, a akesi ala ale ali anpa ante anu awen e en ijo ike ilo insa jaki jan jelo jo kala kalama kama kasi ken kepeken kili kin kiwen ko kon kule kulupu kute la lape laso lawa  len lete li lili linja lipu loje lon luka lukin lupa ma mama mani meli mi mije moku moli monsi mu mun musi mute nanpa nasa nasin nena ni nimi noka o oko olin ona open pakala pali palisa pana pi pilin pimeja pini pipi poka poki pona sama seli selo seme sewi sijelo sike sin sina sinpin sitelen sona soweli suli suno supa suwi tan taso tawa telo tenpo toki tomo tu unpa uta utala walo wan waso wawa weka wile },
+	colorlinks=true,
+	urlcolor=blue,
+	urlbordercolor=blue
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeindex
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\topmargin}{-19mm}
+\setlength{\headheight}{5mm}
+\setlength{\headsep}{10mm}
+\setlength{\textheight}{245mm}
+\setlength{\textwidth}{155mm}
+\setlength{\oddsidemargin}{5mm}
+\setlength{\evensidemargin}{-1mm}
+\setlength{\footskip}{20mm}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2.0ex plus 1.0ex minus 0.5ex}
+\batchmode
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{
+Toki Pona \\ \\ 
+the language of good -- the simple way of life \\ \\
+}
+% \author{
+% Creator of toki pona: \\  Sonja Lang (jan Sonja), Canada \cite{www:tokipona.org} \\ % 
+\author{
+Author: \\ B. J. Knight (jan Pije), USA \cite{www:Pije:01} \\  
+\and
+\LaTeX, Translation, Addition: \\ Robert Warnke (jan Lope), Germany \cite{www:rowa:01} \\ 
+\and
+ \\ These lessons are based on the lessons of jan Pije and \\ the offical Toki Pona book of Sonja Lang \cite{www:tokipona.org} \\
+}
+
+%
+\date
+% \thanks{}
+\today
+\maketitle
+\tableofcontents
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Lessons}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{introduction}
+\include{pronunciation_alphabet}
+\include{basic_sentences}
+\include{direct_objects_compund_sentences}
+\include{adjectives_compound_nouns_adverbs}
+\include{prepositions01}
+\include{other_prepositions}
+\include{negation_yes_no_questions}
+\include{gender_unofficial_words_etc}
+\include{questions_using_seme}
+\include{pi}
+\include{conjunctions_temperature}
+\include{colors}
+\include{living_things}
+\include{the_body}
+\include{numbers}
+\include{la}
+%\include{errors}
+%%\include{tricky_things}
+\include{conclusion}
+\include{answers}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+\chapter{Appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%\include{leavings}
+%
+\include{proverbs}
+\include{texts}
+\include{tokiponization-guide}
+\include{unofficial_words}
+\include{thematic_dict}
+\include{dict}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{toki-pona-lessons}
+\bibliographystyle{plain}
+\printindex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% eof
