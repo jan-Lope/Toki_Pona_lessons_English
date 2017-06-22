@@ -4,7 +4,7 @@ Unlike Esperanto, Toki Pona is a constructed language that favors simplicity ove
 Download the files in a directory and change in to this directory.
 Under Linux (Ubuntu) you type this command:
 
-   ./makte_booklet.sh
+   ./make_booklet.sh
    
 It generate the pdf and html files for the booklet and web site. Furthermore generate it the word list for ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ).
 
