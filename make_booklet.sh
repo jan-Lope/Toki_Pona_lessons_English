@@ -88,9 +88,6 @@ cat tmp.txt | sort | uniq >> toki-pona-lessons_en/toki-pona_english.txt
 rm -f tmp.txt
 wc -l toki-pona-lessons_en/toki-pona_english.txt
 echo " "
-# exit
-cp toki-pona-lessons_en/* /home/robert/public_html/rowa/rowa.giso.de/languages/toki-pona/english/latex/
-geany /home/robert/public_html/rowa/rowa.giso.de/languages/toki-pona/english/latex/toki-pona_english.txt &
 #
 ###############################################################################
 #

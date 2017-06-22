@@ -10,5 +10,9 @@ It generate the pdf and html files for the booklet and web site. Furthermore gen
 
 The builds (pdf, html) can be downloaded from this url:
 
-http://rowa.giso.de/languages/toki-pona/english/lessons.php
+   http://rowa.giso.de/languages/toki-pona/english/lessons.php
+
+The generated dictionary file can be downloaded from this url:
+
+   http://rowa.giso.de/languages/toki-pona/english/dictionary.php
 
