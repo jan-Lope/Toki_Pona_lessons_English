@@ -39,6 +39,8 @@ tmp.*
 *.ind
 *.ist
 
+# Build
+_build/
 
 # specials
 toki-pona-lessons_en/
