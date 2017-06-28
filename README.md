@@ -16,6 +16,11 @@ Print first the odd numbers. After this put the paper again in the printer and p
 Generated Dictionary  
 THis dictionary can be used be the software [ding](http://www-user.tu-chemnitz.de/~fri/ding/).
 
+[HTML-Version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html)  
+
+
+
+
 
 ### Source Codes
 
