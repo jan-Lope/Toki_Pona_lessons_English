@@ -20,8 +20,6 @@ THis dictionary can be used be the software [ding](http://www-user.tu-chemnitz.d
 
 
 
-
-
 ### Source Codes
 
 The PDF, HTML and TXT Files are generated from the Latex files per [travis-ci.org](https://travis-ci.org/jan-Lope/Toki_Pona_lessons_English).
@@ -37,7 +35,7 @@ You can build the PDF, HTML and TXT Files under Ubuntu. You need these software:
     sudo apt-get install latex2html latex-xcolor
 
 
-Download the source code in a directory and change to this directory. After this you start this script:ndes Script:
+Download the source code in a directory and change to this directory. After this you start this script Script:
 
 
     ./make_booklet.sh
