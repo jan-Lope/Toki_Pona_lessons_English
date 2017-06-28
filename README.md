@@ -1,27 +1,43 @@
-# Toki_Pona_lessons_English
+# Toki Pona - Lessons in English
 Unlike Esperanto, Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
 
-The builds of the pdf, txt and html files are possible under Ubuntu (Linux). You need these software
+
+## Generated PDF, HTML and TXT Files
+
+
+[toki-pona-lessons_en.pdf](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona-lessons_en.pdf)  
+Generated Book (A4)  
+
+[toki-pona-lessons_de-booklet.pdf](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona-lessons_en-booklet.pdf)  
+Generated Booklet (A5). 
+Print first the odd numbers. After this put the paper again in the printer and print the even pages.
+
+[toki-pona_english.txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona_english.txt)  
+Generated Dictionary  
+THis dictionary can be used be the software [ding](http://www-user.tu-chemnitz.de/~fri/ding/).
+
+
+### Source Codes
+
+The PDF, HTML and TXT Files are generated from the Latex files per [travis-ci.org](https://travis-ci.org/jan-Lope/Toki_Pona_lessons_English).
+
+You can see the source code in [Github](https://github.com/jan-Lope/Toki_Pona_lessons_English).
+
+### Build by Hand
+
+You can build the PDF, HTML and TXT Files under Ubuntu. You need these software:
 
 
     sudo apt-get install texlive texlive-base texlive-latex-base texlive-extra-utils texlive-binaries texlive-extra-utils texlive-font-utils texlive-pictures texlive-pstricks texlive-latex-extra 
     sudo apt-get install latex2html latex-xcolor
 
 
-Download the files in a directory and change in to this directory.
-Under Linux (Ubuntu) you type this command:
+Download the source code in a directory and change to this directory. After this you start this script:ndes Script:
 
 
     ./make_booklet.sh
 
-   
-It generate the pdf and html files for the booklet and web site. Furthermore generate it the word list for ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ).
 
-The builds (pdf, html) can be downloaded from this url:
 
-   http://rowa.giso.de/languages/toki-pona/english/lessons.php
 
-The generated dictionary file can be downloaded from this url:
-
-   http://rowa.giso.de/languages/toki-pona/english/dictionary.php
-
+[jan Lope](https://jan-lope.github.io)
