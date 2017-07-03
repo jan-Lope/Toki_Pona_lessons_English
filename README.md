@@ -1,6 +1,8 @@
 # Toki Pona - Lessons in English
 Unlike Esperanto, Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
 
+These lessons are based on the offical Toki Pona book of Sonja Lang ( [tokipona.org](http://tokipona.org) ) 
+and the lessons of jan Pije ( [tokipona.net/tp/janpije](http://tokipona.net/tp/janpije/) ). 
 
 ## Generated PDF, HTML and TXT Files
 
