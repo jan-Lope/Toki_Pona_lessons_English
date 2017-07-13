@@ -100,9 +100,16 @@ sed -e 's#'\textsc{'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 sed -e 's#'\dots'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 sed -e 's#'\glqq'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 sed -e 's#'\grqq'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#\\#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#^ #''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 echo "## $TODAY http://rowa.giso.de/languages/toki-pona/" > toki-pona_english.txt
-cat tmp.txt | sort >> toki-pona_english.txt
-if [ ! -f toki-pona_english.txt ]; then
+cat tmp.txt | sort | uniq >> toki-pona_english.txt
+DICT_LINES=`cat toki-pona_english.txt | wc -l`
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+if [ $DICT_LINES -lt 1700 ]; then
 	echo "ERROR"
 	exit 1
 fi
