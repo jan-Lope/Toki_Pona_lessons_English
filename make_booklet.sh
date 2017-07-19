@@ -82,43 +82,7 @@ for i in `ls $TEX_FILE/*.html` ; do
           sed -e '1,$s/ BORDER=\"1\"/ BORDER=\"0\"/g' $i > $i.neu && mv $i.neu $i
           sed -e '1,$s/ VALIGN=\"TOP\" WIDTH=5/ VALIGN=\"TOP\" WIDTH=\"300\"/g' $i > $i.neu && mv $i.neu $i
 done
-echo "make word list for ding dictionary ( http://www-user.tu-chemnitz.de/~fri/ding/ )"
-fgrep "&&" *.tex | fgrep "\\" | fgrep -v "%" | fgrep -v "% no-dictionary" | fgrep -v "% & English - Toki Pona" | cut -d: -f2- | awk -F\& '{print $1 "::" $3 $4 $5 $6 $7 }'  > tmp.txt
-fgrep "&&" *.tex | fgrep "\\" | fgrep "% & English - Toki Pona" | cut -d: -f2- | awk -F\& '{print $3 ":: " $1 }'  >> tmp.txt
-if [ ! -f tmp.txt ]; then
-	echo "ERROR"
-	exit 1
-fi
-# quick 'n' dirty
-sed -e 's#'%'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'*'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'}'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'\textbf{'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'\textit{'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'\textsc{'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'\dots'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'\glqq'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#'\grqq'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#\\#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-sed -e 's#^ #''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
-echo "## $TODAY Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/" > toki-pona_english.txt
-echo "## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). " >> toki-pona_english.txt
-cat tmp.txt | sort | uniq >> toki-pona_english.txt
-DICT_LINES=`cat toki-pona_english.txt | wc -l`
-if [ $? != 0  ]; then
-	echo "ERROR"
-	exit 1
-fi
-if [ $DICT_LINES -lt 1700 ]; then
-	echo "ERROR"
-	exit 1
-fi
-rm -f tmp.txt
-fgrep "mi moku" toki-pona_english.txt > /dev/null 2> /dev/null
-if [ $? != 0  ]; then
-	echo "ERROR"
-	exit 1
-fi
+#
 echo "Create Build directory and copy the pdf and html files in this directory."
 rm -rf _build
 mkdir -p _build
@@ -128,12 +92,6 @@ if [ ! -f _build/$TEX_FILE.pdf ]; then
 	exit 1
 fi
 if [ ! -f _build/$TEX_FILE-booklet.pdf ]; then
-	echo "ERROR"
-	exit 1
-fi
-mv toki-pona_english.txt _build
-fgrep "mi moku" _build/toki-pona_english.txt > /dev/null 2> /dev/null
-if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
@@ -173,6 +131,51 @@ rm -f *.idx
 rm -f *.ilg
 rm -f *.ind
 rm -f *.ist
+#
+echo "make word list for ding dictionary ( http://www-user.tu-chemnitz.de/~fri/ding/ )"
+fgrep "&&" *.tex | fgrep "\\" | fgrep -v "%" | fgrep -v "% no-dictionary" | fgrep -v "% & English - Toki Pona" | cut -d: -f2- | awk -F\& '{print $1 "::" $3 $4 $5 $6 $7 }'  > tmp.txt
+fgrep "&&" *.tex | fgrep "\\" | fgrep "% & English - Toki Pona" | cut -d: -f2- | awk -F\& '{print $3 ":: " $1 }'  >> tmp.txt
+if [ ! -f tmp.txt ]; then
+	echo "ERROR"
+	exit 1
+fi
+# quick 'n' dirty
+sed -e 's#'%'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'*'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'}'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'\textbf{'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'\textit{'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'\textsc{'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'\dots'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'\glqq'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#'\grqq'#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#\\#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+sed -e 's#^ #''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+echo "## $TODAY Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/" > toki-pona_english.txt
+echo "## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). " >> toki-pona_english.txt
+cat tmp.txt | sort | uniq >> toki-pona_english.txt
+rm -f tmp.txt
+DICT_LINES=`cat toki-pona_english.txt | wc -l`
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+if [ $DICT_LINES -lt 1700 ]; then
+	echo "ERROR"
+	exit 1
+fi
+fgrep "mi moku" toki-pona_english.txt > /dev/null 2> /dev/null
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+mv toki-pona_english.txt _build
+fgrep "mi moku" _build/toki-pona_english.txt > /dev/null 2> /dev/null
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+#
 echo " "
 echo "The pdf, html and txt files are in the directory _build."
 ls _build
