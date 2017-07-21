@@ -14,11 +14,17 @@ Generated Book (A4)
 Generated Booklet (A5). 
 Print first the odd numbers. After this put the paper again in the printer and print the even pages.
 
+[HTML-Version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html)  
+
 [toki-pona_english.txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona_english.txt)  
 Generated Dictionary  
 THis dictionary can be used be the software [ding](http://www-user.tu-chemnitz.de/~fri/ding/).
 
-[HTML-Version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html)  
+![ding](ding01.png?raw=true "ding")
+
+![ding](ding02.png?raw=true "ding")
+
+![ding](ding03.png?raw=true "ding")
 
 
 
