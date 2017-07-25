@@ -186,24 +186,24 @@ fi
 echo "make dictionary.coffee"
 cat dictionary-head.coffee > _build/dictionary.coffee
 
-expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's#'\''#''#g' | sed -e 's/  */ /g' | cut -c 1-80 | sed -e 's/[ \t]*$//' "$1" >> _build/dictionary.coffee
-# expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's#'\''#''#g' | sed -e 's/  */ /g'  >> _build/dictionary.coffee
+# expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's#'\''#''#g' | sed -e 's/  */ /g' | cut -c 1-80 | sed -e 's/[ \t]*$//' "$1" >> _build/dictionary.coffee
+expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's#'\''#''#g' | sed -e 's/  */ /g'  >> _build/dictionary.coffee
 
 cat dictionary-tail.coffee >>  _build/dictionary.coffee
 
-
-# npm install -g coffeelint 
 # coffeelint _build/dictionary.coffee
 
 
 
 #
 echo "make dictionary.js"
+coffee -p _build/dictionary.coffee
 coffee -c _build/dictionary.coffee
 if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
+coffee -v
 # rm -f _build/dictionary.coffee
 cp dictionary.html _build/
 
