@@ -197,8 +197,9 @@ cat dictionary-tail.coffee >>  _build/dictionary.coffee
 
 #
 echo "make dictionary.js"
+coffee -v
 coffee -p _build/dictionary.coffee
-coffee -c _build/dictionary.coffee
+# coffee -c _build/dictionary.coffee
 if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
