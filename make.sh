@@ -192,20 +192,20 @@ if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
-coffee -v
+# coffee -v
 rm -f _build/dictionary.coffee
 cp dictionary.html _build/
 #
 echo " "
-echo "The pdf, html and txt files are in the directory _build."
+echo "The generated files are in the directory _build."
 ls _build
 echo " "
 echo "Printing of the booklet: "
 echo "Print the odd numbers first."
 echo "Put the paper with the script on the top again in the printer."
-echo " "
-echo "end $0"
+# echo " "
+# echo "end $0"
 echo "########################################################################"
-echo " "
+# echo " "
 ###############################################################################
 # eof
