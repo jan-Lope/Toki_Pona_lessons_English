@@ -1,12 +1,13 @@
 # Configuration file for https://travis-ci.org
 # (c) Robert Warnke
 # Checked with http://lint.travis-ci.org
-dist: debian9
+dist: trusty
 language: ruby
 sudo: required
 before_install:
-- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends dvipng latex2html latex-xcolor texlive texlive-base texlive-binaries texlive-extra-utils texlive-fonts-extra texlive-fonts-recommended texlive-font-utils texlive-lang-german texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-pictures texlive-pstricks texlive texlive-base psutils coffeescript nodejs
-- npm install -g coffeelint 
+- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends dvipng latex2html latex-xcolor texlive texlive-base texlive-binaries texlive-extra-utils texlive-fonts-extra texlive-fonts-recommended texlive-font-utils texlive-lang-german texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-pictures texlive-pstricks texlive texlive-base psutils nodejs
+- sudo npm install --global coffeescript
+- sudo npm install --global coffeelint 
 script:
 - "./make.sh"
 deploy:
