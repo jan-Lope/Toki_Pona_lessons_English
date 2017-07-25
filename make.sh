@@ -153,6 +153,9 @@ sed -e 's#\\#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 sed -e 's#^ #''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 expand tmp.txt > tmp.neu && mv tmp.neu tmp.txt                          # replace tabs with spaces
 sed -e 's/  */ /g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt              # strip multiple spaces to one
+
+sed -e 's#'\''#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
+
 echo "## $TODAY Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/" > toki-pona_english.txt
 echo "## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). " >> toki-pona_english.txt
 cat tmp.txt | sort | uniq | grep -v "^::" >> toki-pona_english.txt
@@ -180,7 +183,7 @@ fi
 #
 echo "make dictionary.coffee"
 cat dictionary-head.coffee > _build/dictionary.coffee
-cat _build/toki-pona_english.txt | fgrep -v "##" >> _build/dictionary.coffee
+expand _build/toki-pona_english.txt | fgrep -v "##" >> _build/dictionary.coffee
 cat dictionary-tail.coffee >>  _build/dictionary.coffee
 #
 echo "make dictionary.js"
