@@ -18,7 +18,13 @@ Print first the odd numbers. After this put the paper again in the printer and p
 
 [toki-pona_english.txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona_english.txt)  
 Generated Dictionary  
-THis dictionary can be used be the software [ding](http://www-user.tu-chemnitz.de/~fri/ding/).
+
+
+
+
+
+
+This dictionary can be used be the software [ding](http://www-user.tu-chemnitz.de/~fri/ding/).
 
 ![ding](ding01.png?raw=true "ding")
 
