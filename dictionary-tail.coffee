@@ -1,3 +1,4 @@
+'''.split('\n').map (w) ->
   [tokipona, english] = w.split '::'
   return entry =
     tokipona: tokipona.trim()

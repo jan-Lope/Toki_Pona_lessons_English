@@ -153,7 +153,7 @@ sed -e 's#\\#''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 sed -e 's#^ #''#g' tmp.txt > tmp.neu && mv tmp.neu tmp.txt
 echo "## $TODAY Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/" > toki-pona_english.txt
 echo "## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). " >> toki-pona_english.txt
-cat tmp.txt | sort | uniq >> toki-pona_english.txt
+cat tmp.txt | sort | uniq | grep -v "^::" >> toki-pona_english.txt
 rm -f tmp.txt
 DICT_LINES=`cat toki-pona_english.txt | wc -l`
 if [ $? != 0  ]; then
@@ -187,7 +187,7 @@ if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -f _build/dictionary.coffee
+# rm -f _build/dictionary.coffee
 cp dictionary.html _build/
 
 
