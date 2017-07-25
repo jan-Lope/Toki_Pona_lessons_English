@@ -8,23 +8,18 @@ and the lessons of jan Pije ( [tokipona.net/tp/janpije](http://tokipona.net/tp/j
 
 ### Lessons
 
-[toki-pona-lessons_en.pdf](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona-lessons_en.pdf)  
-Generated Book (A4)  
+[toki-pona-lessons_en.pdf](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona-lessons_en.pdf) Generated Book (A4)  
 
-[toki-pona-lessons_de-booklet.pdf](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona-lessons_en-booklet.pdf)  
-Generated Booklet (A5). 
+[toki-pona-lessons_de-booklet.pdf](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona-lessons_en-booklet.pdf) Generated Booklet (A5). 
 Print first the odd numbers. After this put the paper again in the printer and print the even pages.
 
-[HTML](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html)  
-Generated Online version
+[HTML](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html) Generated Online version
 
 ### Dictionary
 
-[Toki Pona - English Dictionary](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/dictionary.html)
-Generated Online version
+[Toki Pona - English Dictionary](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/dictionary.html) Generated Online version
 
-[toki-pona_english.txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona_english.txt)  
-Generated Dictionary for the software [ding](http://www-user.tu-chemnitz.de/~fri/ding/).
+[toki-pona_english.txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/blob/gh-pages/toki-pona_english.txt) Generated text file for the software [ding](http://www-user.tu-chemnitz.de/~fri/ding/).
 
 ![ding](ding01.png?raw=true "ding")
 
