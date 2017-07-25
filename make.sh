@@ -176,6 +176,23 @@ if [ $? != 0  ]; then
 	exit 1
 fi
 #
+echo "make dictionary.coffee"
+cat dictionary-head.coffee > _build/dictionary.coffee
+cat _build/toki-pona_english.txt | fgrep -v "##" >> _build/dictionary.coffee
+cat dictionary-tail.coffee >>  _build/dictionary.coffee
+#
+echo "make dictionary.js"
+coffee -c _build/dictionary.coffee
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -f _build/dictionary.coffee
+cp dictionary.html _build/
+
+
+
+#
 echo " "
 echo "The pdf, html and txt files are in the directory _build."
 ls _build

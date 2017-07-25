@@ -46,7 +46,7 @@ You can build the PDF, HTML and TXT Files under Ubuntu. You need these software:
 Download the source code in a directory and change to this directory. After this you start this script Script:
 
 
-    ./make_booklet.sh
+    ./make.sh
 
 
 
