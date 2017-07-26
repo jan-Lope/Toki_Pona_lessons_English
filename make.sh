@@ -182,7 +182,7 @@ fi
 echo "make dictionary.coffee"
 cat dictionary-head.coffee > _build/dictionary.coffee
 # expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's#'\''#''#g' | sed -e 's/  */ /g'  >> _build/dictionary.coffee
-expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's/  */ /g'  >> _build/dictionary.coffee
+expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's/  */ /g' | iconv -f ISO-8859-15 -t UTF-8 >> _build/dictionary.coffee
 cat dictionary-tail.coffee >>  _build/dictionary.coffee
 #
 echo "make dictionary.js"
