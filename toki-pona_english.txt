@@ -1,4 +1,4 @@
-## 2017-10-04 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
+## 2017-12-06 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
 ## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). 
 a a a! :: ha ha ha! 
 a a a! :: Hahaha! (laughter) 
@@ -47,6 +47,7 @@ anpa pi sinpin lawa :: chin
 anpa :: verb intransitive: to prostrate oneself 
 ante :: adjective: different, dissimilar, changed, other, unequal, differential 
 ante (e ) :: verb transitive: to change, to alter, to modify 
+ante la ni li ' ike. :: In case of deviations it is unfavourable. 
 ante la :: noun: if difference, if variance, if disagreement 
 ante li kama. :: Change comes. Times change. 
 ante :: noun: difference, distinction, differential, variation, variance, disagreement 
@@ -66,14 +67,19 @@ B: mi lukin kin e ona. :: I see it indeed.
 B: pona! mi tawa kin. :: Cool! I went too. 
 Ekato :: Ecuador 
 Elena :: Greece, Greek 
+e mi :: reflexive pronoun: myself, ourselves 
 en :: conjunction: and (used to coordinate head nouns) 
+e ona :: reflexive pronoun: himself, herself, itself, themselves 
 Epanja :: Spain, Spanish 
-e :: separator: An "e" introduces a direct object. Don't use "e" before or after the other separators "e", "la", "li", "pi", "o", ".", "!", "?", ":", ",". 
+e :: separator: An 'e' introduces a direct object. Don't use 'e' before or after the other separators 'e', 'la', 'li', 'pi', 'o', '.', '!', '?', ':', ','. 
 Esi :: Estonia, Estonian 
+e sina :: reflexive pronoun: yourself, yourselves 
 Esuka :: Basque Country, Basque 
 esun :: adjective: marketable, for sale, salable, deductible 
 esun (e ) :: verb transitive: to buy, to sell, to barter, to swap 
 esun :: noun: market, shop, fair, bazaar, business, transaction 
+He leads fightingly the battle. :: ona li lawa utala e utala. 
+ :: He washes himself. 
 ijo :: adjective: of something 
 ijo :: adverb: of something 
 ijo (e ) :: verb transitive: to objectify 
@@ -88,6 +94,7 @@ ike :: Bad
 ike (e ) :: verb transitive: to make bad, to worsen 
 ike! :: interjection: oh dear! woe! alas! 
 ike la :: noun: if negativity, if badness, if evil 
+ike la sina moku e ni. :: If you feel nauseous, swallow this. 
 ike li kama. :: Bad comes. Shit happens. 
 ike lukin :: ugly 
 ike :: noun: negativity, badness, evil 
@@ -102,6 +109,7 @@ ilo lape :: sleeping pill
 ilo lape soweli :: animal tranquilizer or anesthetic, e.g. ketamine 
 ilo li lon poki. :: The tools are in the container. 
 ilo li ' pakala. :: The tool is broken. 
+ :: ilo li sewi sewi e sewi. 
 ilo moku :: an eating utensil (fork/spoon/knife) 
 ilo moku :: utensil, fork, spoon, knife, etc. 
 ilo musi :: toy, thing used for entertainment 
@@ -123,10 +131,13 @@ Intonesija :: Indonesia, Indonesian
 Isale :: Israel 
 Isilan :: Iceland, Icelandic 
 Italija :: Italy, Italian 
+I want to have a lot of sex with you. :: 
+I want to have a lot of sex with you. :: mi wile unpa mute e sina. 
 jaki :: adjective: dirty, gross, filthy, obscene 
 jaki :: adverb: dirty, gross, filthy 
 jaki (e ) :: verb transitive: to pollute, to dirty 
 jaki! :: interjection: ew! yuck! 
+ :: jaki li jaki lili e mi. 
 jaki :: noun: dirt, pollution, garbage, filth, feces 
 Jamanija :: Yemen 
 jan :: adjective: human, somebody's, personal, of people 
@@ -149,7 +160,7 @@ jan jelo laso lili li kama, tan sewi. :: A little green person came from the sky
 jan Jon Kalapin :: John Calvin 
 jan kala :: mermaid. 
 jan Kanata :: Canadian person 
-jan Keli o, sina pona lukin. :: Kelly, you are pretty. 
+jan Keli o, sina ' pona lukin. :: Kelly, you are pretty. 
 jan Ken o, mi olin e sina. :: Ken, I love you. 
 jan Ken o, pipi li lon len sina. :: Ken, a bug is on your shirt. 
 jan Kitopokolonpo :: Christopher Columbus 
@@ -179,17 +190,23 @@ jan lili sina li ' suwi. :: Your baby is cute.
 jan lili :: small, short, thin or young person, child 
 jan lili # tu wan :: 3 children 
 jan li lon insa tomo. :: Somebody's inside the house. 
+jan li lukin e ijo ni. :: The guy's looking at this thing. 
+jan li lukin e ni. :: The guy looks at that one. 
 jan li lukin, sama pipi. :: People look like ants. 
 jan li moku. :: Somebody is eating. 
 jan li moli e waso. :: The person killed the bird. 
+ :: jan li pona ilo e ilo. 
+jan li ' pona mute. :: Man is very good. / The human being is the many good things. 
 jan li ' pona. :: People are good. 
+jan li ' pona. :: The person is good. 
 jan Lisa li ' pona. :: Lisa is cool. 
 jan Lisa o, toki! :: Hello Lisa! 
 jan Lisa o, toki! :: Hello, Lisa. 
 jan Lisa taso li kama. :: Only Lisa came. 
 jan li seme :: personal traits 
 jan li ' suli mute. mani li ' suli lili. :: People are more important than money. 
-jan li toki, kepeken toki pona lon tomo toki. :: People talk in/using Toki Pona in the chat room. 
+jan li telo e ona. :: A person washes himself. 
+jan li toki, kepeken toki pona, lon tomo toki. :: People talk in/using Toki Pona in the chat room. 
 jan li wile jo e ma. :: People want to own land. 
 jan # luka tu :: 7 people 
 jan Mawen o, sina wile ala wile moku? :: Marvin, are you hungry? 
@@ -206,7 +223,9 @@ jan nanpa tu tu :: 4th person
 jan nasa :: strange, foolish, unconventional or crazy person 
 jan nasa utala :: fighting fool 
 jan Nesan li ' musi. :: Nathan is funny. 
+jan ni li kon ike. :: This person is breathing badly. 
 jan ni li pona lukin :: That person is pretty. 
+jan ni li pona. :: This bloke is good. 
 jan ni li ' sama mi. :: That person is like me. 
 jan :: noun: person, people, human, being, somebody, anybody 
 jan olin :: loved one 
@@ -243,13 +262,12 @@ jan pona :: good person, friend, positive person
 jan pona mi li lon poka mi. :: My friend is beside me. 
 jan sama :: similar person, counterpart, peer, person in same situation, sibling 
 jan sama :: sister, brother, sibling 
-jan San o, ... :: John, ... 
 jan San o tawa tomo sina! :: John, go to your house! 
 jan seme li lon? / jan seme li lon ni? :: Who's there? 
 jan seme li ' meli sina? :: Who is your girlfriend/wife? 
 jan seme li moku? :: Who is eating? 
 jan seme li olin e sina? :: Who loves you? 
-jan seme li tawa, poka sina? :: Who went with you? 
+jan seme li tawa, lon poka sina? :: Who went with you? 
 jan seme pi kulupu ni li suli? :: Which people of this group are important? 
 jan Sesi o moku e kili ni! :: Jessie, eat this fruit!. 
 jan sewi :: saint, God, Flying Spaghetti Monster 
@@ -264,15 +282,14 @@ jan sona sijelo :: doctor, physician
 jan suli :: adult 
 jan suli :: big, tall or fat person, adult 
 jan Susan anu jan Lisa li moku e suwi? :: Susan or Lisa ate the cookies? 
-jan Susan li nasa. :: Susan is crazy. 
+jan Susan li ' nasa. :: Susan is crazy. 
 jan Ta o toki ala, tawa mi! :: Todd, don't talk to me! 
-jan Tepani o, sina ike tawa mi. :: Steffany, I don't like you. 
+jan Tepani o, sina ' ike, tawa mi. :: Steffany, I don't like you. 
 jan toki :: speaker, messenger, person communicating 
 jan Toni Kena :: Tony Chestnut 
 jan unpa :: lover, prostitute 
 jan unpa :: sexual partner 
 jan utala ali li ' nasa :: All soldiers are stupid. 
-jan utala ali li ' nasa. :: All soldiers are stupid.
 jan utala li seli ala seli e tomo? :: Is the warrior burning the house? 
 jan utala nasa mute :: many stupid soldiers 
 jan utala nasa ni :: this stupid soldier 
@@ -304,7 +321,7 @@ kalama :: adjective: noisy, loud, rowdy
 kalama ala li lon :: No sound exists.
 kalama (e ) :: verb transitive: to sound, to ring, to play (an instrument) 
 kalama musi en meli li ' pona, tawa mi. :: I like music and girls. 
-kalama musi "Jingle Bells" li ' pona, tawa mi. :: I like the song "Jingle Bells". 
+kalama musi 'Jingle Bells' li ' pona, tawa mi. :: I like the song 'Jingle Bells'. 
 kalama musi li ' pona, tawa mi. :: I like music. 
 kalama musi pi jan Elton-John li ' nasa. :: Elton John's music is odd. 
 kalama musi pi jan Enja li ' pona. :: Enya's music is good. 
@@ -314,6 +331,7 @@ kalama :: verb intransitive: to make noise
 kala :: noun: fish, marine animal, sea creature 
 kama :: adjective: coming, future 
 kama :: adverb: coming, future 
+kama :: auxiliary verb: to become, to mange to 
 kama (e ) :: verb transitive: to bring about, to summon 
 kama jo e lupa meli :: to get genital reconstruction surgery as a women, i.e. vaginoplasty 
 kama jo e palisa mije :: to get genital reconstruction surgery as a man, i.e. metoidioplasty, phalloplasty 
@@ -328,7 +346,6 @@ kama pona! :: Come well! Welcome!
 kama sona (e ) :: transitives Verb: to learn, to study 
 kama :: to come 
 kama :: verb intransitive: to come, to become, to arrive, to happen 
-kama :: verb pre: to become, to mange to 
 Kana :: Ghana 
 Kanata :: Canada 
 Kanse :: France, French 
@@ -350,6 +367,7 @@ Katala :: Qatar
 Katelo :: Georgia, Georgian 
 Katemala :: Guatemala 
 Kenata :: Grenada 
+ken :: auxiliary verb: to can, may 
 ken (e ) :: verb transitive: to make possible, to enable, to allow, to permit 
 ken la ilo li ' pakala. :: Maybe the tool is broken. 
 ken la jan lili li wile moku e telo. :: Maybe the baby is thirsty. 
@@ -362,8 +380,8 @@ ken la ona li lon tomo sona. :: Maybe he's in school.
 ken la tenpo pimeja la ni li ' pona. :: Maybe in the night it will be ok. 
 ken :: noun: possibility, ability, power to do things, permission 
 ken :: verb intransitive: can, is able to, is allowed to, may, is possible 
-ken :: verb pre: to can, may 
 Kepeka :: Quebec 
+kepeken :: auxiliary verb: to use 
 kepeken ike e ilo nasa :: to abuse drugs 
 kepeken kasi nasa :: to smoke pot 
 kepeken lili e ilo nasa :: to use drugs in moderation 
@@ -371,7 +389,6 @@ kepeken :: noun: use, usage, tool
 , kepeken :: preposition: with 
 kepeken utala :: to use violence 
 kepeken :: verb intransitive: to use 
-kepeken :: verb pre: to use 
 Keposi :: Cyprus 
 kili :: adjective: fruity 
 kili :: adverb: fruity 
@@ -381,7 +398,7 @@ kili lili :: small vegetable, fruit, e.g. berry, olive
 kili li lon poki. :: The fruit is in the basket. 
 kili li ' moku li ' pona. :: Pineapple is a food and is good. 
 kili li ' pona, tawa mi. :: I like fruit. 
-kili li tawa anpa, poka kasi. :: The appel drops not far from the tree. 
+kili li tawa anpa, lon poka kasi. :: The appel drops not far from the tree. 
 kili loje :: reddish fruit or vegetable, e.g. tomato 
 kili ma :: earth vegetable, e.g. potato 
 kili :: noun: fruit, pulpy vegetable, mushroom 
@@ -446,7 +463,7 @@ lape li ' pona. :: Sleep and rest are good.
 lape :: noun: sleep, rest 
 lape pona! :: Sleep well! Have a good night! 
 lape :: verb intransitive: to sleep, to rest 
-la :: separator: A "la" is between the context phrase and the main sentence. A context phrase can be sentence, half sentence or noun. Don't use "la" before or after 
+la :: separator: A 'la' is between a conditional phrases and the main sentence. A context phrase can be sentence, half sentence or noun. Don't use 'la' before or after 
 laso :: adjective: bluish, bluey 
 laso :: blue, blue-green 
 laso jelo :: green (yellowish blue) 
@@ -493,7 +510,7 @@ lipu :: adjective: book-, paper-, card-, ticket-, sheet-, page,-
 lipu ni li ' lete pilin. :: This paper feels cold. 
 lipu :: noun: paper, book, card, ticket, sheet, (web-)page, list ; flat and bendable thing 
 lipu toki :: paper with written information, document, text, book 
-li :: separator: A "li" is between any subject except "mi" and "sina" and its verb. Don't use "li" before or after the other separators "e", "la", "o", "pi", ".", "!", "?", ":", ",". 
+li :: separator: A 'li' is between any subject except 'mi' and 'sina' and its verb. Don't use 'li' before or after the other separators 'e', 'la', 'o', 'pi', '.', '!', '?', ':', ','. 
 loje :: adjective: reddish, ruddy, pink, pinkish, gingery 
 loje jelo :: orange (yellowish red) 
 loje laso (pimeja) :: (dark) blueish red, purple 
@@ -525,13 +542,13 @@ luka tu wan :: 5 + 2 + 1 = 8
 luka wan :: 5 + 1 = 6 
 lukin :: adjective: visual(ly) 
 lukin :: adverb: visual(ly) 
+lukin :: auxiliary verb: to seek to, try to, look for 
 lukin :: aware, attentive 
 lukin e toki :: read 
 lukin (e ) :: verb transitive: to see, to look at, to watch, to read 
 lukin jo e pali :: to be looking for a job 
 lukin :: noun: view, look, glance, sight, gaze, glimpse, seeing, vision 
 lukin :: verb intransitive: to look, to watch out, to pay attention 
-lukin :: verb pre: to seek to, try to, look for 
 lupa :: adjective:) hole-, holey, full of holes 
 lupa (e ) :: verb transitive: to pierce, to stab, to perforate 
 lupa :: hole, orifice 
@@ -577,6 +594,7 @@ mama ona li kepeken kasi nasa. :: His mother used pot.
 mama pi mama mi :: my grandparent 
 ma Mewika li ' weka ala, tan ma Kupa. :: The USA is not away from Cuba. 
 ma mi li ' pimeja. :: My land is dark. 
+ma mi li ' Tosi. :: My homeland is Germany. 
 mani :: adjective: financial, financially, monetary, pecuniary 
 mani :: adverb: financially 
 mani :: noun: money, material wealth, currency, dollar, capital 
@@ -610,6 +628,7 @@ ma tomo Loma :: Rome (Italy)
 ma tomo Manten :: Moncton (Canada) 
 ma tomo Mesiko :: Mexico City (Mexico) 
 ma tomo Milano :: Milan (Italy) 
+ma tomo mi li ' Pelin. :: My homecity is Berlin. 
 ma tomo Minsen :: Munich (Germany) 
 ma tomo Monkela :: Montreal (Canada) 
 ma tomo Napoli :: Naples (Italy) 
@@ -657,10 +676,11 @@ meli unpa :: female sexual partner
 mi anpa e jan utala. :: I defeated the warrior. 
 mi en meli mi li ' wan. :: My girlfriend and I got married. 
 mi en sina li ' jan pona. :: You and I are friends. 
-mi ' jan Ken. :: My name is Ken. 
+mi ' jan Ken. / nimi mi li Ken. :: My name is Ken. 
 mi ' jan li ' suli. :: I am somebody and am important. 
 mi ' jan Pepe. :: I am Pepe. 
 mi ' jan pi toki pona. :: I am a Toki Ponan. 
+mi ' jan "Robert". :: I'm Robert. 
 mije :: adjective: male, masculine, manly 
 mije Epanja :: Spanish man 
 mije (insa) :: person who identifies as male, e.g. female-to-male transsexual person 
@@ -680,13 +700,14 @@ mi kama e pakala. :: I caused an accident.
 mi kama jo e telo. :: I got the water. 
 mi kama, tan ma Elopa. :: I come from Europe. 
 mi kama tan ma Mewika. :: I come from America. 
-mi kama tan ma tomo Pelin. :: I'm from Berlin. 
+mi kama, tan ma tomo Pelin. :: I'm from Berlin. 
 mi ken ala ken pilin e monsi sina? :: may I touch your butt? 
 mi ken ala kute e toki sina. :: I can't hear your talking. 
 mi ken ala lape. :: I can't sleep. 
 mi kepeken ilo. :: I'm using tools. 
 mi kepeken poki li kepeken ilo moku. :: I'm using a bowl and a spoon. 
 mi kepeken poki ni. :: I'm using that cup. 
+mi kon e ilo suno. :: I blow out the candle. 
 mi kule e lipu :: I'm coloring the paper. 
 mi lape ala. :: I'm not sleeping. 
 mi lape la ali li ' pona. :: When I'm asleep, everything is good. 
@@ -699,13 +720,14 @@ mi lon tomo. :: I'm in the house.
 mi lon. :: Yes, i do. 
 mi lukin ala e poki laso. :: I don't see the blue bag. 
 mi lukin e ma, lon poka pi jan pona mi. :: I look at the land with my friend. 
+mi lukin e ma, lon poka sina. :: I look at the land with you. 
 mi lukin e ma. ni li ' pona, tawa mi. :: I'm watching the countryside. This is good to me.
-mi lukin e ma, poka jan pona mi. :: I look at the land with my friend. 
 mi lukin e mije anu meli. :: I see a man or a women. 
 mi lukin e ni. :: I am looking at that. 
 mi lukin e soweli luka. :: I saw five mammals. 
 mi lukin e waso tu wan. :: I saw three birds. 
 mi lukin, kepeken ilo suno. :: I look using a flashlight. 
+mi lukin lili e ona. :: I barely saw it. 
 mi lukin sewi e tomo suli. :: I am looking up at the big building. 
 mi lukin taso e meli ni! ali li ' pona. :: I only looked at that girl! Everything's okay. 
 (mi meli.) mi olin e meli. :: I am a lesbian 
@@ -713,22 +735,22 @@ mi lukin taso e meli ni! ali li ' pona. :: I only looked at that girl! Everythin
 mi moku e kili e telo. :: I eat/drink fruit and water. 
 mi moku e kili. :: I eat fruit. 
 mi moku e moku li lukin e ma. :: I eat the food and look at the landscape. 
-mi moku e telo lon tenpo ni. :: I drink now. 
+mi moku e telo, lon tenpo ni. :: I drink now. 
 mi ' moku. :: I am food. 
 mi moku. :: I eat. 
 mi moku. :: I'm eating. 
 mi moku, kepeken ilo moku. :: I eat using a fork/spoon/ any type of eating utensil. 
 mi moku lili e kili lili. :: I nibble (eat a little) the small fruit. 
 mi moku li pakala. :: I eat and destroy. 
-mi moku lon poka sina. :: I'm eating beside [or with] you. 
+mi moku, lon poka sina. :: I'm eating beside [or with] you. 
 mi moku, lon tomo. :: I eat in the house. 
 mi moku mute. sina moku lili. :: I eat more than you. 
 mi moku, tan ni: mi wile moku. :: I eat because I'm hungry. 
 mi musi ala. :: I'm not having fun. / I'm bored. 
 mi musi taso. :: I'm just joking. 
-mi mute li lukin lili e ona. :: We barely saw it. 
 mi mute li moku e telo nasa mute. :: We drank a lot of vodka. 
 mi mute li pana e moku, tawa ona mute. :: We gave them food. 
+mi mute lukin mute e ma. :: I'm visibly increasing the size of the country. 
 mi mute o moku e kala! :: Let's eat fish. 
 mi mute o ' musi! :: Let's have fun. 
 mi mute o tawa! :: Let's go. 
@@ -739,6 +761,7 @@ mi olin e sina. :: I love you.
 mi olin kin e sina. :: I still love you. / I love you too.
 mi pali mute la mi pilin ike. :: When I work a lot, I feel bad. 
 mi pali taso. :: I just work. (All I ever do is work.) 
+mi :: personal pronoun: I, we 
 mi pilin e ni: ona li jo ala e mani. :: I think that he doesn't have money. 
 mi pilin e ni: sina ike. :: I think this: You're bad. 
 mi pilin e seli sijelo sina. :: I feel your bodily warmth. 
@@ -755,8 +778,8 @@ mi ' pona, tan ni: mi lon. :: I'm okay because I'm alive.
 mi ' pona. taso meli mi li ' pakala. :: I'm okay. But my girlfriend is injured. 
 mi ' pona, tawa sina anu seme? :: Do you like me? 
 mi :: possessive pronoun: my, our 
-mi :: pronoun: I, we 
 mi seme e jan telo nasa? :: What Shall We Do With The Drunken Sailor? 
+mi sewi. :: I get up. 
 mi sona ala e nimi pi ona mute. :: I don't know their names. 
 mi sona e ni taso. :: I know only that. (That's all I know.) 
 mi sona e tan. :: I know the reason. / I know why. 
@@ -764,11 +787,13 @@ mi ' suli. :: I'm important. / I'm fat.
 mi ' suli mute. sina ' suli lili. :: I'm bigger than you. 
 mi taso li lon. :: I'm alone. 
 mi tawa! :: Bye! 
-mi tawa e kiwen. :: I'm moving the rock. 
+mi tawa e kiwen, tawa sewi. :: I'm moving the rock to the peak. 
+mi tawa e mi, tawa tomo mi. :: I'm moving myself to my house. 
 mi tawa :: I'm going. Bye! 
 mi tawa supa lape. :: I'm going to bed. 
 mi tawa, tawa tomo mi. :: I'm going to my house. 
-mi tawa tomo toki. ona li ' pona, tawa mi. :: I go the chat room. It is good for me. 
+mi tawa, tawa tomo toki. ona li ' pona, tawa mi. :: I go the chat room. It is good for me. 
+mi telo e mi. :: I wash myself. 
 mi telo e mi, lon tomo telo. :: I bathe myself in the restroom. 
 mi toki, tawa sina. :: I talk to you. 
 mi utala ike. :: I fight badly. 
@@ -789,7 +814,7 @@ mi wile e suwi! :: I want a cookie!
 mi wile e suwi sin! :: I want another/more cookie(s)! 
 mi wile kama sona e toki Inli. :: I want to learn English. 
 mi wile kin tawa, tawa tomo mi. :: I still want to go to my house. 
-mi wile, lon tomo. :: I want to be at home. 
+mi wile, lon tomo. :: I want in a house. 
 mi wile lon tomo. :: I want to be at home. / I want in a house. 
 mi wile lukin e ma ante. :: I want to see other countries. 
 mi wile lukin e ma e suno. :: I want to see the land and the sun. 
@@ -802,9 +827,9 @@ mi wile pakala e sina. :: I must destroy you.
 mi wile pana e ko jaki. :: I need to crap. 
 mi wile pana e telo jelo. :: I need to pee. 
 mi wile sin e telo pi lape ala. :: I need more coffee. 
-mi wile tawa ma Tosi. :: I want to go to Germany. 
 mi wile tawa. taso mi ken ala. :: I want to go, but I can't. 
 mi wile tawa, tawa ma Oselija. :: I want to go to Australia. 
+mi wile tawa, tawa ma Tosi. :: I want to go to Germany. 
 mi wile tawa tomo ona, kepeken tomo tawa mi. :: I want to go to his house using my car. 
 mi wile tawa weka. :: I want to leave. 
 mi wile toki meli. :: I want to talk about girls. 
@@ -907,7 +932,7 @@ nena mama, nena meli :: breasts
 nena meli :: breasts 
 nena :: noun: bump, hill, extrusion, button, mountain, nose, protuberance 
 nena suli li pana e ko seli :: a volcano is erupting 
-ni :: adjective: this, that 
+ni :: adjective demonstrative pronoun: this, that 
 ni li ' ike, tawa mi :: That is bad to me. / I don't like that. 
 ni li jan lili ona nanpa tu. :: This is her second child. 
 ni li ' jan seme? :: Who is that? 
@@ -915,6 +940,7 @@ ni li ' kule seme? :: What color is that?
 ni li ' lete pilin mute. :: This is very cold. 
 ni li ' mute mute tu. :: The answer is 42. 
 ni li ' pona, tawa mi. :: That is good to me. / I like that. 
+ni li pona... :: This is good. 
 ni li ' seli pilin lili. :: This feels warm. 
 ni li suwi ala suwi? :: Does it sweeten? 
 ni li tawa jan pona mi. :: This is for my friend. 
@@ -922,7 +948,7 @@ ni li tomo. mi pana e ni tawa sina. :: This is a house. I give it to you.
 nimi (e ) :: verb transitive: to name 
 nimi :: noun: word, name 
 nimi pi mi mute :: our names 
-ni :: pronoun: this, that 
+ni :: noun demonstrative pronoun: this, that 
 noka :: adjective: foot-, lower, bottom 
  noka :: adverb: on foot 
 noka :: foot, leg 
@@ -956,32 +982,37 @@ ona li kama, tawa ma mi. :: He's coming to my country.
 ona li kama, tawa tomo mi. :: He came to my house. 
 ona li kule e tomo tawa. :: He's painting the car. 
 ona li lawa e jan, tawa ma pona. :: He led people to the good land. 
+ :: ona li lawa utala e utala. 
 ona li lon ala lon tomo? :: Is he in the house? 
 ona li lon sewi mi. :: He is in my above, i.e. he is above me. 
-ona li lukin e pipi. :: He's watching the bug. 
 ona li lukin, sama pipi. :: He looks like a bug. 
-ona li mama ala mama? :: Does she mother (somebody)? Does she wet-nurse (somebody)? 
-ona li ' mama anu seme? :: Is she a parent? 
+ona li mama ala mama? :: Does she mother (someone)? 
+ona li ' mama anu seme? :: Is she a mother (or what)? 
 ona li moku e kili. :: She's eating fruit. 
+ona li ' moku. :: It is food. 
 ona li pali e ni, kepeken nasin seme? :: How did she make that? 
 ona li pona e ilo. :: She's fixing the machine. 
 (ona) li pona :: (he/she/it) is good, I like (him/her/it) 
+ona li pona ike mute e ilo. :: He was very bad at fixing the machine. 
 ona li ' pona li ' lili. :: It is good and is small. 
+ona li ' pona li unpa. :: He's awesome and has sex. 
 (ona) li seme? :: what is (she/he) like? 
-ona li tawa ala tawa ma ike? :: Did he go to the evil land? 
+ona li tawa ala tawa, tawa ma ike? :: Did he go to the evil land? 
 ona li tawa ala, tawa telo. :: He didn't go to the lake. 
-ona li tawa e len mi. :: She moved my clothes. 
-ona li tawa sewi kiwen. :: She's going up the rock. 
+ona li tawa, tawa sewi kiwen. :: She's going up the rock. 
+ona li telo e ona. :: He washes himself. 
 ona li wile ala kute e ni. :: He shouldn't hear this. 
 ona li wile jo e ilo. :: He would like to have a tool. 
+ona li wile moku e telo. :: She is thirsty. 
 ona li wile mute e ni. :: He wants that a lot. 
-ona li wile pakala e pipi. :: He wants to squish the spider. 
+ona li wile pakala e ilo. :: He wants to destroy the tool. 
 ona mute li nasa e jan suli. :: They drove the adults crazy. 
-ona mute li tawa utala :: They're going to the war. 
+ona mute li tawa, tawa utala. :: They're going to the war. 
 ona mute li utala toki. :: They are arguing. 
 ona mute :: they, them 
+ona :: personal pronoun: she, he, it, they 
 ona :: possessive pronoun: her, his, its 
-ona :: pronoun: she, he, it, they 
+ona telo e ona. :: She washes herself. 
 o olin e jan poka. :: Love thy neighbour. 
 o open e lupa! :: Open the door. 
 o pali! :: Work! 
@@ -991,20 +1022,21 @@ o pana e sike, tawa mi. :: Give the ball to me.
 o pana e sitelen ma, tawa mi. :: Give me the map. 
 o pana e suwi, tawa mi! :: Give me a lollipop! 
 open :: adjective: initial, starting, opening 
+open :: auxiliary verb: to begin, to start 
 open (e ) :: verb transitive: to open, to start, to begin, to turn on 
+open la ala li lon! :: There was nothing in the beginning! 
 open la :: noun: at the opening, in the beginning 
 open :: noun: start, beginning, opening 
-open :: verb pre: to begin, to start 
 o pilin e nena. :: Touch the button. 
 o pilin e uta mi, kepeken uta sina! :: Kiss me. 
-o ! :: separator: An "o" is used for imperative (commands): "o" replace "li". 
+o ' pona! :: Be good! 
+o ! :: separator: An 'o' is used for imperative (commands): 'o' replace 'li'. 
 o sona ala. o pali. :: Stop thinking. Do stuff. 
 o sona e sina! :: Know thyself! 
-o ! :: subject: An "o" is used for imperative (commands). "o" replace the subject. 
+o ! :: subject: An 'o' is used for imperative (commands). 'o' replace the subject. 
 o tawa! :: Go! 
-o tawa ma tomo, poka jan pona sina! :: Go to the city with your friend! 
-o tawa musi, poka mi! :: Dance with me! 
-... o tawa tomo sina! :: ... go to your house! 
+o tawa musi, lon poka mi! :: Dance with me! 
+o tawa, tawa ma tomo, lon poka jan pona sina! :: Go to the city with your friend! 
 o tu. :: Break up. Split apart. 
 o tu e palisa ni. :: Split this stick. 
 o wan! :: Unite! 
@@ -1058,7 +1090,7 @@ pana (e ) :: verb transitive: to give, to put, to send, to place, to release, to
 pana :: noun: giving, transfer, exchange 
 pana wawa :: BDSM 
 pan (e ) :: verb transitive: to sow 
-pan ni li moku ' ike. :: This pasta is unappetizing. 
+pan ni li ' moku ike. :: This pasta is unappetizing. 
 pan :: noun: cereal, grain; barley, corn, oat, rice, wheat; bread, pasta 
 pilin :: adjective: sensitive, feeling, empathic 
 pilin :: adverb: perceptively 
@@ -1093,24 +1125,22 @@ pimeja li lon :: it is night
 pimeja :: noun: darkness, shadows 
 pini :: adjective: completed, finished, past, done 
 pini :: adverb: ago, past, perfectly 
+pini :: auxiliary verb: to stop, to finish, to end, to interrupt 
 pini (e ) :: verb transitive: to end, to stop, to turn off, to finish, to close 
 pini li ' pona la ale li ' pona. :: Is the end good -- everything is good. 
 pini :: noun: end, tip 
 pini palisa :: glans, head of the penis 
 pini pi nena mama :: nipples 
-pini :: verb pre: to stop, to finish, to end, to interrupt 
 pipi li lon ala lon poka mi? :: Is a bug beside me? 
 pipi li lon anpa mi. :: The bug is underneath me. 
-pipi li lukin li unpa. :: The bug looks and has sex. 
 pipi li moku ala moku e kili? :: Are the bugs eating the fruit? 
 pipi li moku e kasi. :: Bugs eat plants. 
 pipi li moku e mi. :: The mosquito bit me. 
 pipi li ' moli. :: The bug is dead. 
-pipi li wile moku e telo. :: The bug is thirsty. 
 pipi :: noun: bug, insect, spider 
 pipi pi ma mama mi li ' lili. :: The insects of my homeland are small. 
 pipi seme li pakala e sina? :: Which bug hurt you? 
-pi :: separator: "pi" is used to build complex compound nouns. "pi" separates a (pro)noun from another (pro)noun that has at least one adjective. After "pi" could only be a noun or pronoun. 
+pi :: separator: 'pi' is used to build complex compound nouns. 'pi' separates a (pro)noun from another (pro)noun that has at least one adjective. After 'pi' could only be a noun or pronoun. 
 poka :: adjective: neighbouring 
 poka mi li ' pakala. :: My hip hurts. 
 poka :: noun: side, hip, next to 
@@ -1129,6 +1159,8 @@ pona e pilin jan :: cheer up, make somebody happy
 pona (e ) :: verb transitive: to improve, to fix, to repair, to make good 
 pona! :: interjection: great! good! thanks! OK! cool! yay! 
 pona la :: noun: if good, if simplicity, if positivity 
+pona la sina jo e mani. :: Luckily, you have money. 
+pona li kama. :: The good will come. 
 pona lukin :: beautiful, pretty, handsome 
 pona lukin :: pretty, attractive 
 pona moku :: delicious, tasty 
@@ -1136,13 +1168,15 @@ pona :: noun: good, simplicity, positivity
 pona unpa :: sexy, good in bed 
 pona! :: Yay! Good! Hoorah! 
 pu :: adjective: buying and interacting with the official Toki Pona book 
+pu :: auxiliary verb: to buying and interacting with the official Toki Pona book 
 pu (e ) :: verb transitive: to apply (the official Toki Pona book) to 
 pu :: noun: buying and interacting with the official Toki Pona book 
 pu :: verb intransitive: to read (the official Toki Pona book) 
-pu :: verb pre: to buying and interacting with the official Toki Pona book 
 sama :: adjective: same, similar, equal, of equal status or position 
 sama :: adverb: just as, equally, exactly the same, just the same, similarly 
 sama (e ) :: verb transitive: to equate, to make equal, to make similar to 
+sama la :: noun: in case of equality, if parity, on identity 
+sama la sina en mi li utala ala. :: In case of equality we don't fight. 
 sama li ' ike. :: Equality is bad. 
 sama :: noun: equality, parity, equity, identity, par, sameness 
 sama pi ni en ona la mi wile jo e ni tu. :: If this and that is the same, I want both.
@@ -1167,12 +1201,12 @@ seme li moku e kili mi? :: What is eating my fruit?
 seme li ' pona, tawa sina? :: What do you like? 
 seme li utala e sina? :: What attacked you? 
 seme? :: Pardon? 
-seme :: question word: what, which, wh- (question word) 
+seme :: question pronoun: what, which, wh- (question word) 
 : :: separator: A colon is between an hint sentences and a sentences. Before and after the colon has to be complete sentences. Don't use a colon before or after 
-, :: separator: A comma is used after an "o" to addressing people. Optional you can putdone, finished, completed, ended, close a comma before a preposition. Don't use a comma before or after 
-. :: separator: A declarative sentence ends with a full stop. Don't use a full stop before or after the other separators "e", "la", "li", "pi", ".", "!", "?", ":". 
-! :: separator: An imperative or an interjection sentence ends with an exclamation mark. Don't use an exclamation mark before or after the other separators "e", "la", "li", "pi", ".", "!", "?", ":". 
-? :: separator: An questions always ends in a question mark. Don't use a question mark before or after the other separators "e", "la", "li", "o", "pi", ".", "!", "?", ":". 
+, :: separator: A comma is used after an 'o' to addressing people. Optional you can putdone, finished, completed, ended, close a comma before a preposition. Don't use a comma before or after 
+. :: separator: A declarative sentence ends with a full stop. Don't use a full stop before or after the other separators 'e', 'la', 'li', 'pi', '.', '!', '?', ':'. 
+! :: separator: An imperative or an interjection sentence (exclamatory) ends with an exclamation mark. Don't use an exclamation mark before or after the other separators 'e', 'la', 'li', 'pi', '.', '!', '?', ':'. 
+? :: separator: An question (interrogative sentence) always ends with a question mark. Don't use a question mark before or after the other separators 'e', 'la', 'li', 'o', 'pi', '.', '!', '?', ':'. 
 " :: separator: Quotation marks are used for words with original spelling or for quotes. 
 sewi :: adjective: superior, elevated, religious, formal 
 sewi :: adverb: superior, elevated, religious, formal 
@@ -1182,6 +1216,12 @@ sewi monsi :: upper back, shoulders
 sewi :: noun: high, up, above, top, over, on 
 sewi pi sinpin lawa :: forehead 
 sewi :: verb intransitive: to get up 
+She increases the property very badly. :: 
+She increases the property very badly. :: ona li mute ike mute e jo. 
+She's good. :: 
+She's good. :: ona li ' pona. 
+She was barely dressed. :: 
+She was barely dressed. :: ona li len lili e ona. 
 sijelo :: adjective: physical, bodily, corporal, corporeal, material, carnal 
 sijelo :: adverb: physically, bodily 
 sijelo :: body 
@@ -1206,44 +1246,49 @@ sina kama, tan seme? :: Why did you come?
 sina ken ala ken kama? :: Can you come? 
 sina ken ala ken lape? :: Can you sleep? 
 sina kepeken ala kepeken ni? :: Are you using that? 
+sina kepeken seme? :: What are you using? 
+ :: sina len nasa jaki e sina. 
 sina lon ala lon ma tomo Wankuwa? :: Do you live in Vancouver? 
 sina lon ma tomo seme? :: What city do you live in? 
 sina lon seme? :: Where are you? 
-sina lukin ala lukin e kiwen? :: Do you see the rock? lukin Yes lukin ala No 
+sina lukin ala lukin e kiwen? :: Do you see the rock? 
 sina lukin ala lukin e sitelen tawa X-Files? :: Do you watch The X-Files? 
 sina lukin e jan seme? :: Whom did you see? 
 sina lukin e pipi. :: You're watching a bug. 
 sina lukin e seme? :: What are you watching? 
 sina lukin sewi e suno. :: You look up at the sun. 
+ :: sina lukin unpa mute e mi. 
 sina moku e telo nasa la sina nasa. :: If you drink beer, you'll be silly. 
 sina ' moli la sina ken ala toki. :: If you are dead, you can't speak. 
 sina o telo e sina! :: Wash yourself! 
 sina pakala e ilo, kepeken nasin seme? :: How did you break the tool? 
 sina pakala e seme? :: What did you hurt? 
 sina pali e ni kepeken nasin seme? :: How did you make this? 
+sina pali e ni, kepeken seme? :: What did you use to work on this? 
 sina pana ala pana e moku tawa jan lili? :: Did you give food to the child? 
 sina pana e ike la sina kama jo e ike. :: If you give evil, you will receive evil. 
+sina :: personal pronoun: you 
 sina pilin e seme? :: What are you thinking? 
 sina pilin seme? :: how are you? how are you feeling? 
 sina pilin seme? :: How do you feel? 
 sina pona ala pona? :: Do you fix (something)? 
-sina ' pona anu seme? :: Are you OK? 
+sina ' pona anu seme? :: Are you OK (or what)? 
 sina pona pilin la ... :: If You are Happy ... 
 sina ' pona. :: You are good. 
 sina pona. :: You fix. 
 sina :: possessive pronoun: yours 
-sina :: pronoun: you 
-sina sona ala sona e toki mi? :: Do you understand what I'm saying? sona Yes sona ala No 
+sina sona ala sona e toki mi? :: Do you understand what I'm saying? 
 sina sona e toki ni la sina sona e toki pona! :: Figure this one out for yourself. :o) 
-sina suli a! :: You are so tall! 
+sina ' suli a! :: You are so tall! 
 sina ' suli. :: You're tall. 
 sina suno mi. :: You are My Sunshine. 
+sina tawa, lon poka pi jan seme? :: Whom did you go with? 
 sina tawa ma tomo, tan seme? :: Why did you go to the city? 
-sina tawa poka jan seme? :: Whom did you go with? 
-sina toki e ni tawa mi: sina moku. :: You told me that you are eating. 
+sina telo e sina. :: You wash yourself. 
+sina toki e ni, tawa mi: sina moku. :: You told me that you are eating. 
 sina toki, tawa jan seme? :: Whom are you talking to? 
 sina toki, tawa mi anu ona? :: Are you talking to me, or are you talking to him? 
-sina wile ala wile moku? :: Do you want to eat? wile Yes wile ala No 
+sina wile ala wile moku? :: Do you want to eat? 
 sina wile ala wile pali? wile ala. :: Do you want to work? No. 
 sina wile e mani anu seme? :: Do you want the money or what? 
 sina wile e moku anu telo? :: Do you want food, or do you want water? 
@@ -1253,7 +1298,7 @@ sina wile kepeken ilo. :: You have to use tools.
 sina wile moku anu seme? :: Do you want to eat or what? 
 sina wile pali e seme? :: What do you want to do? 
 sina wile tawa, tawa ma seme? :: What place do you want to go to? 
-sina wile tawa telo suli. :: You want to go to the ocean. 
+sina wile tawa, tawa telo suli. :: You want to go to the ocean. 
 sina wile toki e tan, tawa mi. :: You have to tell me why. 
 sina wile toki, tawa mije anu meli? :: Do you want to talk a male, or a female? 
 sin en ante li sin e lawa li pana e sona. :: Novelty and change freshen the mind and bring insight. 
@@ -1269,19 +1314,19 @@ sitelen (e ) :: verb transitive: to draw, to write
 sitelen lape :: dreams 
 sitelen ma :: map 
 sitelen :: noun: picture, image, representation, symbol, mark, writing 
-sitelen tawa "Bowling for Columbine" li pona kin. :: The movie "Bowling for Columbine" is also good. 
-sitelen tawa "Fahrenheit 9/11" li pona, tawa mi. :: I like the movie "Fahrenheit 9/11". 
+sitelen tawa 'Bowling for Columbine' li pona kin. :: The movie 'Bowling for Columbine' is also good. 
+sitelen tawa 'Fahrenheit 9/11' li pona, tawa mi. :: I like the movie 'Fahrenheit 9/11'. 
 sitelen tawa :: movie, TV show 
 sitelen toki :: writing 
 sitelen unpa :: visual erotica, porn 
 sona :: adjective: knowing, cognizant, shrewd 
+sona :: auxiliary verb: to know how to 
 sona e toki :: to know, speak, understand a language 
 sona (e ) :: verb transitive: to know, to understand, to know how to 
 sona mute :: smart, intelligent, wise 
 sona :: noun: knowledge, wisdom, intelligence, understanding 
 sona pona e toki :: to master a language 
 sona :: verb intransitive: to know, to understand 
-sona :: verb pre: to know how to 
 sona :: Wisdom 
 soweli :: adjective: animal 
 soweli li kama moli. :: The cheetah is dying. 
@@ -1330,6 +1375,8 @@ tan :: verb intransitive: to come from, originate from, come out of
 taso :: adjective: only, sole 
 taso :: adverb: only, just, merely, simply, solely, singly 
 taso :: conjunction: but, however 
+taso ni la mi pilin pona. :: Only this one makes me feel good. 
+taso tenpo pimeja pini la mi kama nasa. :: But, Last night, I became drunk. 
 tawa :: adjective: moving, mobile 
 tawa :: adverb: moving, mobile 
 tawa (e ) :: verb transitive: to move, to displace 
@@ -1417,7 +1464,6 @@ tenpo pimeja :: night
 tenpo pimeja :: night (dark time) 
 tenpo pimeja ni la mun li ' suli. :: The moon is big tonight. 
 tenpo pimeja ni :: tonight (this dark time) 
-tenpo pimeja pini la mi kama nasa. :: Last night, I became drunk. 
 tenpo pimeja pini la mi lukin e sitelen tawa X-Files. :: Last night I watched X-Files. 
 tenpo pimeja pini :: last night (past dark time) 
 tenpo pi mute seme la sina sike e suno? :: How old are you? 
@@ -1451,9 +1497,14 @@ tenpo suno sin :: morning
 tenpo telo :: rainy season 
 tenpo :: time 
 tenpo tu tu la mi sike e suno. :: Four times (la) I circled the sun. 
+The garbage dirtys me something. :: jaki li jaki lili e mi. 
+The guy improve useful the tool. :: jan li pona ilo e ilo. 
+The machine raises up the roof. :: ilo li sewi sewi e sewi. 
+The sun shines warmly on the land. :: 
+The sun shines warmly on the land. :: suno li suno seli e ma. 
 toki :: adjective: speaking, eloquent, linguistic, verbal, grammatical 
 toki :: adverb: speaking, eloquent, linguistic, verbal, grammatical 
-toki Epelanto :: Esperanto 
+toki Epelanto li ' pona. :: Esperanto ist einfach. 
 toki (e ) :: verb transitive: to speak, to talk, to say, to pronounce, to discourse 
 toki! :: Hello!, Hi! 
 toki ike lon :: to say bad things about, complain about 
@@ -1467,6 +1518,7 @@ toki :: language
 toki :: Language 
 toki li ' pona. :: communication is good. 
 toki li ' pona, tawa mi. :: I like talking. / I like languages. 
+toki mi li ' Tosi. :: My mother tongue is German. 
 toki nanpa wan :: primary language 
 toki :: noun: language, speech, tongue, lingo, jargon, 
 toki pona e toki :: to speak a language well 
@@ -1491,6 +1543,7 @@ tomo mani :: bank
 tomo mi li ' weka, tan ni. :: My house is away from here. 
 tomo moku :: dining room, kitchen, grocery store, restaurant 
 tomo moku :: grocery store, restaurant 
+tomo ni li pakala. :: This house is falling apart. 
 tomo :: noun: indoor constructed space, e.g. house, home, room, building 
 tomo pali :: work(place), office, factory, etc. 
 tomo pi jan Lisa :: Lisa's house 
@@ -1514,7 +1567,7 @@ tu (e ) :: verb transitive: to divide, to double, to separate, to cut in two
 tu :: noun: duo, pair 
 tu tu :: 2 + 2 = 4 
 tu wan :: 2 + 1 = 3 
-' :: unofficial: For clarification the missing verb "to be" can be marked with an apostrophe. 
+' :: unofficial: For clarification the missing verb 'to be' can be marked with an apostrophe. 
 # :: unofficial: Number sign 
 unpa :: adjective: erotic, sexual 
 unpa :: adverb: erotic, sexual 
@@ -1564,6 +1617,7 @@ weka e ike jan :: forgive somebody
 weka (e ) :: verb transitive: to remove, to eliminate, to throw away, to get rid of 
 weka lili li ' pona, tawa lawa. :: Temporary isolation is good for meditation. 
 weka :: noun: absence 
+wile :: auxiliary verb: to want, need, wish, have to, must, will, should 
 wile e pona tawa jan :: to wish somebody well 
 wile (e ) :: verb transitive: to want, need, wish, have to, must, will, should 
 wile ike :: to have negative intentions, malevolent 
@@ -1588,4 +1642,5 @@ wile unpa e meli :: to be sexually attracted to women
 wile unpa e mije :: to be sexually attracted to men 
 wile unpa :: horny 
 wile unpa :: horny, lustful 
-wile :: verb pre: to want, need, wish, have to, must, will, should 
+You dress disgustingly silly. :: sina len nasa jaki e sina. 
+You're looking at me very sexy. :: sina lukin unpa mute e mi. 
