@@ -1,4 +1,4 @@
-## 2018-01-10 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
+## 2018-01-12 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
 ## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). 
 a a a! :: ha ha ha! 
 a a a! :: Hahaha! (laughter) 
