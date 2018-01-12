@@ -947,6 +947,7 @@ ni li ' jan seme? :: Who is that?
 ni li ' kule seme? :: What color is that? 
 ni li ' lete pilin mute. :: This is very cold. 
 ni li ' mute mute tu. :: The answer is 42. 
+ni li pona tawa mi. :: I like this.
 ni li ' pona, tawa mi. :: That is good to me. / I like that. 
 ni li pona... :: This is good. 
 ni li ' seli pilin lili. :: This feels warm. 
