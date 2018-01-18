@@ -1,4 +1,4 @@
-## 2018-01-17 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
+## 2018-01-18 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
 ## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). 
 a a a! :: ha ha ha! 
 a a a! :: Hahaha! (laughter) 
@@ -735,7 +735,7 @@ mi lukin e waso tu wan. :: I saw three birds.
 mi lukin, kepeken ilo suno. :: I look using a flashlight. 
 mi lukin lili e ona. :: I barely saw it. 
 mi lukin sewi e tomo suli. :: I am looking up at the big building. 
-mi lukin taso e meli ni! ali li ' pona. :: I only looked at that girl! Everything's okay. 
+mi lukin taso e meli ni! :: I only looked at that girl! 
 (mi meli.) mi olin e meli. :: I am a lesbian 
 (mi mije.) mi olin e mije. :: I am gay (male) 
 mi moku e kili e telo. :: I eat/drink fruit and water. 
@@ -819,7 +819,6 @@ mi wile ala pali. :: I'm lazy.
 mi wile ala tawa musi. :: I don't want to dance. 
 mi wile ala toki, tawa sina. :: I don't want to talk to you. 
 mi wile e ilo moku. :: I need a fork. 
-mi wile e moku e telo. :: I want food and water. 
 mi wile e ni: mi lon tomo. :: I want this: I'm at home. 
 mi wile e sitelen ma. :: I want the map. 
 mi wile e soweli lili. :: I want a puppy. 
@@ -1566,6 +1565,7 @@ tomo moku :: grocery store, restaurant
 tomo ni li pakala. :: This house is falling apart. 
 tomo :: noun: indoor constructed space, e.g. house, home, room, building 
 tomo pali :: work(place), office, factory, etc. 
+tomo pi jan Keli en mije ona li suli. :: The house of Keli and her boyfriend is big. 
 tomo pi jan Lisa :: Lisa's house 
 tomo pi mi mute li ' pakala. :: Our house is messed up. 
 tomo pi ona mute :: their house 
