@@ -1,4 +1,4 @@
-## 2018-01-12 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
+## 2018-01-17 Automatically generated from the Toki Pona lessons. https://github.com/jan-Lope/
 ## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). 
 a a a! :: ha ha ha! 
 a a a! :: Hahaha! (laughter) 
@@ -780,6 +780,9 @@ mi pona e ale mi la mi pona e mi. :: When I improve all areas of my life, I am m
 mi pona e ijo. :: I'm fixing something. 
 mi pona e ilo suno, kepeken ilo lili. :: I fixed the flashlight using a small tool. 
 mi pona e tomo, tawa jan pakala. :: I fixed the house for the disabled man. 
+mi pona e tomo tawa, kepeken ilo ni. :: I repair the car with this tool. 
+mi pona e tomo tawa. mi kepeken ilo ni. :: I repair the car. I use this tool. 
+mi pona e tomo tawa. mi wile kepeken ilo ni. :: I repair the car. I want to use this tool. 
 mi ' pona, tan ni: mi lon. :: I'm okay because I'm alive. 
 mi ' pona. taso meli mi li ' pakala. :: I'm okay. But my girlfriend is injured. 
 mi ' pona, tawa sina anu seme? :: Do you like me? 
@@ -799,6 +802,7 @@ mi tawa e mi, tawa tomo mi. :: I'm moving myself to my house.
 mi tawa :: I'm going. Bye! 
 mi tawa, lon poka sina. :: I'll walk beside you. 
 mi tawa supa lape. :: I'm going to bed. 
+mi tawa, tawa sina. :: I'll go to you. 
 mi tawa, tawa tomo mi. :: I'm going to my house. 
 mi tawa, tawa tomo pi telo nasa. :: I went to the pub. 
 mi tawa, tawa tomo toki. ona li ' pona, tawa mi. :: I go the chat room. It is good for me. 
