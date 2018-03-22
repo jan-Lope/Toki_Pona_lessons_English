@@ -18,6 +18,9 @@ Print first the odd numbers. After this put the paper again in the printer and p
 [HTML](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html) Generated Online version
 If you get an error 404, please press the shift key and the reload button in your browser.
 
+[toki-pona-lessons_en.epub](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.epub) Generated Book (epub)  
+Use the button "Download". If you get an error 404, please press the "shift" key and the "reload" button in your browser.
+
 ### Dictionary
 
 [Toki Pona - English Dictionary](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/dictionary.html) Generated Online version

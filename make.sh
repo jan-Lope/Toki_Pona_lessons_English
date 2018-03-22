@@ -83,10 +83,18 @@ for i in `ls $TEX_FILE/*.html` ; do
           sed -e '1,$s/ VALIGN=\"TOP\" WIDTH=5/ VALIGN=\"TOP\" WIDTH=\"300\"/g' $i > $i.neu && mv $i.neu $i
 done
 #
-echo "Create Build directory and copy the pdf and html files in this directory."
+echo "make epub file" 
+ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.epub --no-default-epub-cover
+if [ ! -f $TEX_FILE.epub ]; then
+	echo "ERROR"
+	exit 1
+fi
+#
+echo "Create Build directory and copy the pdf, epub and html files in this directory."
 rm -rf _build
 mkdir -p _build
 mv *.pdf _build
+mv *.epub _build
 if [ ! -f _build/$TEX_FILE.pdf ]; then
 	echo "ERROR"
 	exit 1
@@ -97,6 +105,10 @@ if [ ! -f _build/$TEX_FILE-booklet.pdf ]; then
 fi
 mv $TEX_FILE _build/
 if [ ! -f _build/$TEX_FILE/index.html ]; then
+	echo "ERROR"
+	exit 1
+fi
+if [ ! -f _build/$TEX_FILE.epub ]; then
 	echo "ERROR"
 	exit 1
 fi
@@ -131,6 +143,7 @@ rm -f *.idx
 rm -f *.ilg
 rm -f *.ind
 rm -f *.ist
+rm -f *.epub
 #
 echo "make word list for ding dictionary ( http://www-user.tu-chemnitz.de/~fri/ding/ )"
 fgrep "&&" *.tex | fgrep "\\" | fgrep -v "%" | fgrep -v "% no-dictionary" | fgrep -v "% & English - Toki Pona" | cut -d: -f2- | awk -F\& '{print $1 "::" $3 $4 $5 $6 $7 }'  > tmp.txt
@@ -158,6 +171,7 @@ echo "## $TODAY Automatically generated from the Toki Pona lessons. https://gith
 echo "## You can use this dictionary with the software ding ( http://www-user.tu-chemnitz.de/~fri/ding/ ). " >> toki-pona_english.txt
 cat tmp.txt | sort | uniq | grep -v "^::" >> toki-pona_english.txt
 rm -f tmp.txt
+rm -f tmp.neu
 DICT_LINES=`cat toki-pona_english.txt | wc -l`
 if [ $? != 0  ]; then
 	echo "ERROR"
