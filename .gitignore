@@ -38,6 +38,7 @@ tmp.*
 *.ilg
 *.ind
 *.ist
+*.epub
 
 # Build
 _build/
