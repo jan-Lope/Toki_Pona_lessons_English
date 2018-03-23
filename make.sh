@@ -1,7 +1,7 @@
 #!/bin/bash
 ###############################################################################
 #
-# Make pdf, booklet-pdf and html files for the English Toki Pona lessons 
+# Make pdf, booklet-pdf, epub and html files for the English Toki Pona lessons 
 # Robert Warnke
 #
 ###############################################################################
@@ -81,6 +81,8 @@ fi
 for i in `ls $TEX_FILE/*.html` ; do
           sed -e '1,$s/ BORDER=\"1\"/ BORDER=\"0\"/g' $i > $i.neu && mv $i.neu $i
           sed -e '1,$s/ VALIGN=\"TOP\" WIDTH=5/ VALIGN=\"TOP\" WIDTH=\"300\"/g' $i > $i.neu && mv $i.neu $i
+          sed -e '1,$s/<TH ALIGN=/<TD ALIGN=/g' $i > $i.neu && mv $i.neu $i
+          sed -e '1,$s/<TD ALIGN=\"LEFT\">/<TD ALIGN=\"LEFT\" VALIGN=\"TOP\">/g' $i > $i.neu && mv $i.neu $i
 done
 #
 echo "make epub file" 
