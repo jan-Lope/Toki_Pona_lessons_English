@@ -91,12 +91,30 @@ if [ ! -f $TEX_FILE.epub ]; then
 	echo "ERROR"
 	exit 1
 fi
+ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.mobi
+if [ ! -f $TEX_FILE.mobi ]; then
+	echo "ERROR"
+	exit 1
+fi
+ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.azw3
+if [ ! -f $TEX_FILE.azw3 ]; then
+	echo "ERROR"
+	exit 1
+fi
+ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.azw3
+if [ ! -f $TEX_FILE.azw3 ]; then
+	echo "ERROR"
+	exit 1
+fi
 #
 echo "Create Build directory and copy the pdf, epub and html files in this directory."
-rm -rf _build
-mkdir -p _build
-mv *.pdf _build
-mv *.epub _build
+rm -rf _build/
+mkdir -p _build/
+mv *.pdf _build/
+mv *.epub _build/
+mv *.mobi _build/
+mv *.azw3 _build/
+#
 if [ ! -f _build/$TEX_FILE.pdf ]; then
 	echo "ERROR"
 	exit 1

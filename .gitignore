@@ -38,7 +38,18 @@ tmp.*
 *.ilg
 *.ind
 *.ist
+
+## output files
 *.epub
+*.mobi
+*.azw3
+*.azw3
+*.prc
+*.lrf
+*.lrx
+*.pdb
+*.cbz
+*.cbr
 
 # Build
 _build/
