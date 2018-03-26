@@ -1,12 +1,10 @@
-# Toki Pona - Lessons in English
+# Toki Pona - Lessons and Dictionary
 Unlike Esperanto, Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
 
 These lessons are based on the offical Toki Pona book of Sonja Lang ( [tokipona.org](http://tokipona.org) ) 
 and the lessons of jan Pije ( [tokipona.net/tp/janpije](http://tokipona.net/tp/janpije/) ). 
 
-## Generated PDF, HTML and TXT Files
-
-### Lessons
+## Lessons
 
 These lessons can be downloaded in various formats. 
 Use the button "Download". If you get an error 404, please press the "shift" key and the "reload" button in your browser.
@@ -26,7 +24,7 @@ Print first the odd numbers. After this put the paper again in the printer and p
 If you get an error 404, please press the shift key and the reload button in your browser.
 
 
-### Dictionary Toki Pona - English
+## Dictionary Toki Pona - English
 
 [online version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/dictionary.html) 
 
@@ -39,13 +37,13 @@ If you get an error 404, please press the shift key and the reload button in you
 ![ding](ding03.png?raw=true "ding")
 
 
-### Source Codes
+## Source Codes
 
-The PDF, HTML and TXT Files are generated from the Latex files per [travis-ci.org](https://travis-ci.org/jan-Lope/Toki_Pona_lessons_English).
+The PDF, HTML, eBook and TXT Files are generated from the Latex files per [travis-ci.org](https://travis-ci.org/jan-Lope/Toki_Pona_lessons_English).
 
 You can see the source code in [Github](https://github.com/jan-Lope/Toki_Pona_lessons_English).
 
-### Build by Hand
+## Build by Hand
 
 You can build the PDF, HTML and TXT Files under Ubuntu. You need these software:
 
