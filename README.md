@@ -1,6 +1,5 @@
 <!--
-  Title: Toki Pona - Lessons and Dictionary
-  Description: Unlike Esperanto, Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
+  Description: Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
   -->
 
 # Toki Pona - Lessons and Dictionary
