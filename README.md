@@ -1,3 +1,12 @@
+<!--
+  Title: Toki Pona - Lessons and Dictionary
+  Description: Toki Pona - the language of good. The simple way of life.
+  Author: jan Lope
+  -->
+
+
+
+
 # Toki Pona - Lessons and Dictionary
 Unlike Esperanto, Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
 
