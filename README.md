@@ -4,7 +4,7 @@
   Author: jan Lope
   -->
 
-
+<meta name='keywords' content='Toki Pona, lessons, dictionary'>
 
 
 # Toki Pona - Lessons and Dictionary
