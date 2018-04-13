@@ -1,4 +1,11 @@
-<meta name='keywords' content='Toki Pona, lessons, dictionary'>
+---
+layout: post
+title: Toki Pona - Lessons and Dictionary
+description: Toki Pona - the language of good. The simple way of life.
+author: jan Lope
+---
+
+
 <!--
   Title: Toki Pona - Lessons and Dictionary
   Description: Toki Pona - the language of good. The simple way of life.
