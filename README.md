@@ -13,16 +13,18 @@ and the lessons of jan Pije ( [tokipona.net/tp/janpije](http://tokipona.net/tp/j
 These lessons can be downloaded in various formats. 
 Use the button "Download". If you get an error 404, please press the "shift" key and the "reload" button in your browser.
 
-[pdf (A4)](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.pdf) Generated Book (A4)  
+[pdf (A4)](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.pdf) | 
+[pdf (letter)](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-letter.pdf) 
 
-[pdf (booklet A5). ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet.pdf) 
+ 
+
+[pdf (booklet A5). ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet.pdf) | 
+[pdf (booklet letter). ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet-letter.pdf) 
 Print first the odd numbers. After this put the paper again in the printer and print the even pages.
 
-[epub](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.epub) 
-
-[mobi](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.mobi) 
-
-[azw3](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.azw3) 
+eBook [epub](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.epub) | 
+[mobi](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.mobi) |
+[azw3](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.azw3) |
 
 [online version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html) 
 If you get an error 404, please press the shift key and the reload button in your browser.

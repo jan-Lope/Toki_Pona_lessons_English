@@ -62,6 +62,18 @@ if [ ! -f $TEX_FILE-booklet.pdf ]; then
 	echo "ERROR"
 	exit 1
 fi
+echo "convert A4 pdf to letter pdf"
+pdfjam --outfile $TEX_FILE-letter.pdf --paper letter $TEX_FILE.pdf > /dev/null 2> /dev/null
+if [ ! -f $TEX_FILE-letter.pdf ]; then
+	echo "ERROR"
+	exit 1
+fi
+pdfjam --outfile $TEX_FILE-booklet-letter.pdf --paper letter $TEX_FILE-booklet.pdf > /dev/null 2> /dev/null
+if [ ! -f $TEX_FILE-booklet-letter.pdf ]; then
+	echo "ERROR"
+	exit 1
+fi
+# pdfinfo $TEX_FILE-booklet-letter.pdf
 echo "make html files"
 latex2html $TEX_FILE.tex > /dev/null 2> /dev/null
 if [ ! -f $TEX_FILE/index.html ]; then
@@ -86,22 +98,17 @@ for i in `ls $TEX_FILE/*.html` ; do
 done
 #
 echo "make epub file" 
-ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.epub --no-default-epub-cover
+ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.epub --no-default-epub-cover > /dev/null 2> /dev/null
 if [ ! -f $TEX_FILE.epub ]; then
 	echo "ERROR"
 	exit 1
 fi
-ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.mobi
+ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.mobi > /dev/null 2> /dev/null
 if [ ! -f $TEX_FILE.mobi ]; then
 	echo "ERROR"
 	exit 1
 fi
-ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.azw3
-if [ ! -f $TEX_FILE.azw3 ]; then
-	echo "ERROR"
-	exit 1
-fi
-ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.azw3
+ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.azw3 > /dev/null 2> /dev/null
 if [ ! -f $TEX_FILE.azw3 ]; then
 	echo "ERROR"
 	exit 1
