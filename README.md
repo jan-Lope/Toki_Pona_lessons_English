@@ -24,7 +24,7 @@ Print first the odd numbers. After this put the paper again in the printer and p
 
 eBook [epub](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.epub) | 
 [mobi](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.mobi) |
-[azw3](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.azw3) |
+[azw3](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.azw3)
 
 [online version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html) 
 If you get an error 404, please press the shift key and the reload button in your browser.
