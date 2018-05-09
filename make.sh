@@ -7,6 +7,7 @@
 ###############################################################################
 #
 TEX_FILE="toki-pona-lessons_en"
+LATEX_FILE_WORD_LIST="nimi_pi_toki_pona"
 MAN_FILE="toki-pona.6"
 #
 TODAY=`date +"%Y-%m-%d"`
@@ -239,8 +240,43 @@ fi
 rm -f _build/dictionary.coffee
 cp dictionary.html _build/
 #
+echo "make rtf file with official word list"
+rm -rf $LATEX_FILE_WORD_LIST*
+# Generiere ein einfaches Latex-File des Dictionaries
+echo "\documentclass[10pt,a4paper]{article}"          > $LATEX_FILE_WORD_LIST.tex
+echo "\usepackage[utf8]{inputenc}"                   >> $LATEX_FILE_WORD_LIST.tex
+echo "\usepackage{amssymb}"                          >> $LATEX_FILE_WORD_LIST.tex
+echo "\begin{document}"                              >> $LATEX_FILE_WORD_LIST.tex
+echo "\title{Toki Pona - Dictionary}"                >> $LATEX_FILE_WORD_LIST.tex
+echo "\author{jan Lope https://jan-lope.github.io/}" >> $LATEX_FILE_WORD_LIST.tex
+echo "\date"                                         >> $LATEX_FILE_WORD_LIST.tex
+echo "\today"                                        >> $LATEX_FILE_WORD_LIST.tex
+echo "\maketitle"                                    >> $LATEX_FILE_WORD_LIST.tex
+echo "\begin{tabular}{lll}"                          >> $LATEX_FILE_WORD_LIST.tex
+fgrep "&&" dict.tex   >> $LATEX_FILE_WORD_LIST.tex
+echo "\end{tabular}"                                 >> $LATEX_FILE_WORD_LIST.tex
+echo "\end{document}"                                >> $LATEX_FILE_WORD_LIST.tex
+# latex $LATEX_FILE_WORD_LIST.tex
+# latex2html  $LATEX_FILE_WORD_LIST.tex 
+if [ ! -f $LATEX_FILE_WORD_LIST ]; then
+	echo "ERROR"
+	exit 1
+fi
+latex2rtf $LATEX_FILE_WORD_LIST.tex
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -f _build/$LATEX_FILE_WORD_LIST*
+cp $LATEX_FILE_WORD_LIST.rtf _build/
+if [ ! -f _build/$LATEX_FILE_WORD_LIST.rtf ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -rf $LATEX_FILE_WORD_LIST*
+#
 # Generiere ein UNIX manual page mit dem Wörterbuch
-echo "make man page"
+echo "make man page of official word list"
 rm -f ./$MAN_FILE
 rm -f ./$MAN_FILE.gz
 echo ".TH man 6 $TODAY Toki Pona - Dictionary"   > $MAN_FILE
@@ -264,6 +300,7 @@ if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
+rm -f _build/$MAN_FILE.gz
 cp $MAN_FILE.gz _build/
 if [ ! -f _build/$MAN_FILE.gz ]; then
 	echo "ERROR"
