@@ -241,7 +241,7 @@ rm -f _build/dictionary.coffee
 cp dictionary.html _build/
 #
 echo "make rtf file with official word list"
-rm -rf $LATEX_FILE_WORD_LIST*
+rm -f $LATEX_FILE_WORD_LIST*
 # Generiere ein einfaches Latex-File des Dictionaries
 echo "\documentclass[10pt,a4paper]{article}"          > $LATEX_FILE_WORD_LIST.tex
 echo "\usepackage[utf8]{inputenc}"                   >> $LATEX_FILE_WORD_LIST.tex
@@ -253,12 +253,12 @@ echo "\date"                                         >> $LATEX_FILE_WORD_LIST.te
 echo "\today"                                        >> $LATEX_FILE_WORD_LIST.tex
 echo "\maketitle"                                    >> $LATEX_FILE_WORD_LIST.tex
 echo "\begin{tabular}{lll}"                          >> $LATEX_FILE_WORD_LIST.tex
-fgrep "&&" dict.tex   >> $LATEX_FILE_WORD_LIST.tex
+fgrep "&&" dict.tex                                  >> $LATEX_FILE_WORD_LIST.tex
 echo "\end{tabular}"                                 >> $LATEX_FILE_WORD_LIST.tex
 echo "\end{document}"                                >> $LATEX_FILE_WORD_LIST.tex
 # latex $LATEX_FILE_WORD_LIST.tex
 # latex2html  $LATEX_FILE_WORD_LIST.tex 
-if [ ! -f $LATEX_FILE_WORD_LIST ]; then
+if [ ! -f $LATEX_FILE_WORD_LIST.tex ]; then
 	echo "ERROR"
 	exit 1
 fi
