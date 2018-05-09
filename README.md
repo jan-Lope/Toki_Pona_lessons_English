@@ -32,7 +32,7 @@ If you get an error 404, please press the shift key and the reload button in you
 
 ## List of Official Toki Pona Words
 
-[Unix man page](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona6.gz)
+[Unix man page](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona.6.gz)
 Unix, Linux and Mac OS X: sudo cp toki-pona6.gz /usr/share/man/man6/ ; man toki-pona
 
 
