@@ -7,6 +7,8 @@
 ###############################################################################
 #
 TEX_FILE="toki-pona-lessons_en"
+MAN_FILE="toki-pona.6"
+#
 TODAY=`date +"%Y-%m-%d"`
 echo " "
 echo "########################################################################"
@@ -236,6 +238,39 @@ fi
 # coffee -v
 rm -f _build/dictionary.coffee
 cp dictionary.html _build/
+#
+# Generiere ein UNIX manual page mit dem Wörterbuch
+echo "make man page"
+rm -f ./$MAN_FILE
+rm -f ./$MAN_FILE.gz
+echo ".TH man 6 $TODAY Toki Pona - Dictionary"   > $MAN_FILE
+echo ".SH NAME"                                 >> $MAN_FILE
+echo "Toki Pona - Dictionary"                   >> $MAN_FILE
+echo ".SH DESCRIPTION"                          >> $MAN_FILE
+echo "Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as 'the language of good. The simple way of life.' Toki Pona has only about 120 words."  >> $MAN_FILE
+echo ".SH DICTIONARY"                           >> $MAN_FILE
+#
+fgrep "&&" dict.tex  | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
+	sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
+	sed -e 's#'@\ '#'@'#g' 	| sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
+	sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
+	awk -F\@ '{print "\n.PP\n.B " $2 "\n.br\n.SM\n" $4 ": " $5 "\n"}'  >> $MAN_FILE
+if [ ! -f $MAN_FILE ]; then
+	echo "ERROR"
+	exit 1
+fi
+gzip $MAN_FILE
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+cp $MAN_FILE.gz _build/
+if [ ! -f _build/$MAN_FILE.gz ]; then
+	echo "ERROR"
+	exit 1
+fi
+echo "sudo cp $MAN_FILE.gz /usr/share/man/man6/"
+echo "man toki-pona"
 #
 echo " "
 echo "The generated files are in the directory _build."
