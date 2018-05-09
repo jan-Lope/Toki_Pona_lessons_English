@@ -61,7 +61,7 @@ You can build the PDF, HTML and TXT Files under Ubuntu. You need these software:
 
 
     sudo apt-get install texlive texlive-base texlive-latex-base texlive-extra-utils texlive-binaries texlive-extra-utils texlive-font-utils texlive-pictures texlive-pstricks texlive-latex-extra 
-    sudo apt-get install latex2html latex-xcolor npm nodejs coffeescript calibre
+    sudo apt-get install latex2html latex-xcolor npm nodejs coffeescript calibre latex2rtf
 
 
 Download the source code in a directory and change to this directory. After this you start this script Script:
