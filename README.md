@@ -19,7 +19,7 @@ Use the button "Download". If you get an error 404, please press the "shift" key
  
 
 [pdf (booklet A5). ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet.pdf) | 
-[pdf (booklet letter). ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet-letter.pdf) 
+[pdf (booklet letter) ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet-letter.pdf) 
 Print first the odd numbers. After this put the paper again in the printer and print the even pages.
 
 eBook [epub](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.epub) | 
@@ -28,6 +28,12 @@ eBook [epub](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/
 
 [online version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jan-Lope/Toki_Pona_lessons_English/gh-pages/toki-pona-lessons_en/index.html) 
 If you get an error 404, please press the shift key and the reload button in your browser.
+
+
+## List of Official Toki Pona Words
+
+[Unix man page](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona6.gz)
+Unix, Linux and Mac OS X: sudo cp toki-pona6.gz /usr/share/man/man6/ ; man toki-pona
 
 
 ## Dictionary Toki Pona - English
