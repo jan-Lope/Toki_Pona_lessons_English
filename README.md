@@ -2,6 +2,8 @@
   Description: Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
   -->
 
+[Deutsch](https://jan-lope.github.io/Toki_Pona_Lektionen_Deutsch/)
+
 # Toki Pona - Lessons and Dictionary
 Unlike Esperanto, Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
 
@@ -11,7 +13,7 @@ These lessons are based on the lessons (2015) of jan Pije ( [tokipona.net/tp/jan
 ## Lessons
 
 These lessons can be downloaded in various formats. 
-Use the button "Download". If you get an error 404, please press the "shift" key and the "reload" button in your browser.
+If you get an error 404, please press the "shift" key and the "reload" button in your browser.
 
 [pdf (A4)](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.pdf) | 
 [pdf (letter)](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-letter.pdf) 
