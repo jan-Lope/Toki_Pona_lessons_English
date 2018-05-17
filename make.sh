@@ -8,9 +8,11 @@
 #
 TEX_FILE="toki-pona-lessons_en"
 LATEX_FILE_WORD_LIST="nimi_pi_toki_pona"
+TXT_DICT_FILE="nimi_pi_toki_pona.txt"
+CSV_DICT_FILE="nimi_pi_toki_pona.csv"
 MAN_FILE="toki-pona.6"
-#
 TODAY=`date +"%Y-%m-%d"`
+#
 echo " "
 echo "########################################################################"
 echo "start $0"
@@ -239,6 +241,49 @@ fi
 # coffee -v
 rm -f _build/dictionary.coffee
 cp dictionary.html _build/
+#
+# Generiere eine CSV-Datei mit dem Woerterbuch
+echo "make csv file with official word list"
+rm -f $CSV_DICT_FILE
+fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
+        sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
+        sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
+        sed -e 's#'@\ '#'@'#g'  | sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
+        sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
+        awk -F\@ '{print "\"" $2 "\",\"" $4 "\",\"" $5 "\"" }'  >> $CSV_DICT_FILE
+if [ ! -f $CSV_DICT_FILE ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -f _build/$CSV_DICT_FILE
+cp $CSV_DICT_FILE _build/
+if [ ! -f _build/$CSV_DICT_FILE ]; then
+	echo "ERROR"
+	exit 1
+fi
+#
+# Generiere ein TXT-Datei mit dem Wörterbuch
+echo "make txt file with official word list"
+rm -f $TXT_DICT_FILE
+echo "Toki Pona - official word list $TODAY"                                                               > $TXT_DICT_FILE
+echo "https://jan-lope.github.io"                                                                         >> $TXT_DICT_FILE
+echo ""                                                                                                   >> $TXT_DICT_FILE
+fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
+        sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
+        sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
+        sed -e 's#'@\ '#'@'#g'  | sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
+        sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
+        awk -F\@ '{print $2 "\n" $4 ": " $5 "\n"}'  >> $TXT_DICT_FILE
+if [ ! -f $TXT_DICT_FILE ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -f _build/$TXT_DICT_FILE
+cp $TXT_DICT_FILE _build/
+if [ ! -f _build/$TXT_DICT_FILE ]; then
+	echo "ERROR"
+	exit 1
+fi
 #
 echo "make rtf file with official word list"
 rm -f $LATEX_FILE_WORD_LIST*
