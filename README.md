@@ -18,11 +18,11 @@ If you get an error 404, please press the "shift" key and the "reload" button in
 [pdf (A4)](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.pdf) | 
 [pdf (letter)](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-letter.pdf) 
 
- 
 
 [pdf (booklet A5). ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet.pdf) | 
 [pdf (booklet letter) ](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en-booklet-letter.pdf) 
 Print first the odd numbers. After this put the paper again in the printer and print the even pages.
+
 
 eBook [epub](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.epub) | 
 [mobi](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona-lessons_en.mobi) |
@@ -33,6 +33,11 @@ If you get an error 404, please press the shift key and the reload button in you
 
 
 ## List of Official Toki Pona Words
+
+[txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.txt)
+
+[csv](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.csv)
+This format is supported by many spreadsheet and database programs. 
 
 [rtf](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.rtf) 
 This format is supported by almost all text programs. 
