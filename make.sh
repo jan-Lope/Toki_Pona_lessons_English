@@ -13,6 +13,8 @@ CSV_DICT_FILE="nimi_pi_toki_pona.csv"
 MAN_FILE="toki-pona.6"
 TODAY=`date +"%Y-%m-%d"`
 #
+###############################################################################
+#
 echo " "
 echo "########################################################################"
 echo "start $0"
@@ -79,6 +81,9 @@ if [ ! -f $TEX_FILE-booklet-letter.pdf ]; then
 	exit 1
 fi
 # pdfinfo $TEX_FILE-booklet-letter.pdf
+#
+###############################################################################
+#
 echo "make html files"
 latex2html $TEX_FILE.tex > /dev/null 2> /dev/null
 if [ ! -f $TEX_FILE/index.html ]; then
@@ -102,6 +107,8 @@ for i in `ls $TEX_FILE/*.html` ; do
           sed -e '1,$s/<TD ALIGN=\"LEFT\">/<TD ALIGN=\"LEFT\" VALIGN=\"TOP\">/g' $i > $i.neu && mv $i.neu $i
 done
 #
+###############################################################################
+#
 echo "make epub file" 
 ebook-convert $TEX_FILE/$TEX_FILE.html $TEX_FILE.epub --no-default-epub-cover > /dev/null 2> /dev/null
 if [ ! -f $TEX_FILE.epub ]; then
@@ -118,6 +125,8 @@ if [ ! -f $TEX_FILE.azw3 ]; then
 	echo "ERROR"
 	exit 1
 fi
+#
+###############################################################################
 #
 echo "Create Build directory and copy the pdf, epub and html files in this directory."
 rm -rf _build/
@@ -144,6 +153,9 @@ if [ ! -f _build/$TEX_FILE.epub ]; then
 	echo "ERROR"
 	exit 1
 fi
+#
+###############################################################################
+#
 echo "make clear"
 rm -f *.synctex.gz
 rm -f *.tmp
@@ -176,6 +188,8 @@ rm -f *.ilg
 rm -f *.ind
 rm -f *.ist
 rm -f *.epub
+#
+###############################################################################
 #
 echo "make word list for ding dictionary ( http://www-user.tu-chemnitz.de/~fri/ding/ )"
 fgrep "&&" *.tex | fgrep "\\" | fgrep -v "%" | fgrep -v "% no-dictionary" | fgrep -v "% & English - Toki Pona" | cut -d: -f2- | awk -F\& '{print $1 "::" $3 $4 $5 $6 $7 }'  > tmp.txt
@@ -225,6 +239,8 @@ if [ $? != 0  ]; then
 	exit 1
 fi
 #
+###############################################################################
+#
 echo "make dictionary.coffee"
 cat dictionary-head.coffee > _build/dictionary.coffee
 # expand _build/toki-pona_english.txt | fgrep -v "##" | sed -e 's#'\''#''#g' | sed -e 's/  */ /g'  >> _build/dictionary.coffee
@@ -242,7 +258,8 @@ fi
 rm -f _build/dictionary.coffee
 cp dictionary.html _build/
 #
-# Generiere eine CSV-Datei mit dem Woerterbuch
+###############################################################################
+#
 echo "make csv file with official word list"
 rm -f $CSV_DICT_FILE
 fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
@@ -262,7 +279,8 @@ if [ ! -f _build/$CSV_DICT_FILE ]; then
 	exit 1
 fi
 #
-# Generiere ein TXT-Datei mit dem Wörterbuch
+###############################################################################
+#
 echo "make txt file with official word list"
 rm -f $TXT_DICT_FILE
 echo "Toki Pona - official word list $TODAY"                                                               > $TXT_DICT_FILE
@@ -285,10 +303,12 @@ if [ ! -f _build/$TXT_DICT_FILE ]; then
 	exit 1
 fi
 #
+###############################################################################
+#
+#
 echo "make rtf file with official word list"
 rm -f $LATEX_FILE_WORD_LIST.tex
 rm -f $LATEX_FILE_WORD_LIST.rtf
-# Generiere ein einfaches Latex-File des Dictionaries
 echo "\documentclass[10pt,a4paper]{article}"          > $LATEX_FILE_WORD_LIST.tex
 echo "\usepackage[utf8]{inputenc}"                   >> $LATEX_FILE_WORD_LIST.tex
 echo "\usepackage{amssymb}"                          >> $LATEX_FILE_WORD_LIST.tex
@@ -321,7 +341,8 @@ if [ ! -f _build/$LATEX_FILE_WORD_LIST.rtf ]; then
 fi
 rm -rf $LATEX_FILE_WORD_LIST*
 #
-# Generiere ein UNIX manual page mit dem Wörterbuch
+###############################################################################
+#
 echo "make man page of official word list"
 rm -f ./$MAN_FILE
 rm -f ./$MAN_FILE.gz
@@ -337,6 +358,8 @@ fgrep "&&" dict.tex  | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed
 	sed -e 's#'@\ '#'@'#g' 	| sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
 	sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
 	awk -F\@ '{print "\n.PP\n.B " $2 "\n.br\n.SM\n" $4 ": " $5 "\n"}'  >> $MAN_FILE
+echo ".SH AUTHOR"                              >> $MAN_FILE
+echo "jan Lope https://jan-lope.github.io"     >> $MAN_FILE
 if [ ! -f $MAN_FILE ]; then
 	echo "ERROR"
 	exit 1
@@ -354,6 +377,8 @@ if [ ! -f _build/$MAN_FILE.gz ]; then
 fi
 echo "sudo cp $MAN_FILE.gz /usr/share/man/man6/"
 echo "man toki-pona"
+#
+###############################################################################
 #
 echo " "
 echo "The generated files are in the directory _build."
