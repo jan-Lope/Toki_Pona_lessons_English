@@ -34,13 +34,9 @@ If you get an error 404, please press the shift key and the reload button in you
 
 ## List of Official Toki Pona Words
 
-[txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.txt)
-
-[csv](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.csv)
-This format is supported by many spreadsheet and database programs. 
-
-[rtf](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.rtf) 
-This format is supported by almost all text programs. 
+[txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.txt) | 
+[csv](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.csv) | 
+[rtf](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.rtf)  
 
 [unix man page](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona.6.gz)
 Unix, Linux and Mac OS X: sudo cp toki-pona.6* /usr/share/man/man6/ ; man toki-pona
