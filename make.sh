@@ -286,7 +286,8 @@ if [ ! -f _build/$TXT_DICT_FILE ]; then
 fi
 #
 echo "make rtf file with official word list"
-rm -f $LATEX_FILE_WORD_LIST*
+rm -f $LATEX_FILE_WORD_LIST.tex
+rm -f $LATEX_FILE_WORD_LIST.rtf
 # Generiere ein einfaches Latex-File des Dictionaries
 echo "\documentclass[10pt,a4paper]{article}"          > $LATEX_FILE_WORD_LIST.tex
 echo "\usepackage[utf8]{inputenc}"                   >> $LATEX_FILE_WORD_LIST.tex
@@ -312,7 +313,7 @@ if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -f _build/$LATEX_FILE_WORD_LIST*
+rm -f _build/$LATEX_FILE_WORD_LIST.rtf
 cp $LATEX_FILE_WORD_LIST.rtf _build/
 if [ ! -f _build/$LATEX_FILE_WORD_LIST.rtf ]; then
 	echo "ERROR"

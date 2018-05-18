@@ -63,7 +63,7 @@ You can see the source code in [Github](https://github.com/jan-Lope/Toki_Pona_le
 
 ## Build by Hand
 
-You can build the PDF, HTML and TXT Files under Ubuntu. You need these software:
+You can build the files under Ubuntu. You need these software:
 
 
     sudo apt-get install texlive texlive-base texlive-latex-base texlive-extra-utils texlive-binaries texlive-extra-utils texlive-font-utils texlive-pictures texlive-pstricks texlive-latex-extra 
