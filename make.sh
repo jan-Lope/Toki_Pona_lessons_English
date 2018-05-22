@@ -7,10 +7,10 @@
 ###############################################################################
 #
 TEX_FILE="toki-pona-lessons_en"
-LATEX_FILE_WORD_LIST="nimi_pi_toki_pona"
-TXT_DICT_FILE="nimi_pi_toki_pona.txt"
-CSV_DICT_FILE="nimi_pi_toki_pona.csv"
-MAN_FILE="toki-pona.6"
+TEX_FILE_WORD_LIST="nimi_pi_toki_pona"
+TXT_FILE_WORD_LIST="nimi_pi_toki_pona.txt"
+CSV_FILE_WORD_LIST="nimi_pi_toki_pona.csv"
+MAN_FILE_WORD_LIST="toki-pona.6"
 TODAY=`date +"%Y-%m-%d"`
 #
 ###############################################################################
@@ -261,21 +261,21 @@ cp dictionary.html _build/
 ###############################################################################
 #
 echo "make csv file with official word list"
-rm -f $CSV_DICT_FILE
+rm -f $CSV_FILE_WORD_LIST
 fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
         sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
         sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
         sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
         sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
         sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
-        awk -F\@ '{print "\"" $2 "\",\"" $4 "\",\"" $5 "\"" }'  >> $CSV_DICT_FILE
-if [ ! -f $CSV_DICT_FILE ]; then
+        awk -F\@ '{print "\"" $2 "\",\"" $4 "\",\"" $5 "\"" }'  >> $CSV_FILE_WORD_LIST
+if [ ! -f $CSV_FILE_WORD_LIST ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -f _build/$CSV_DICT_FILE
-cp $CSV_DICT_FILE _build/
-if [ ! -f _build/$CSV_DICT_FILE ]; then
+rm -f _build/$CSV_FILE_WORD_LIST
+cp $CSV_FILE_WORD_LIST _build/
+if [ ! -f _build/$CSV_FILE_WORD_LIST ]; then
 	echo "ERROR"
 	exit 1
 fi
@@ -283,24 +283,24 @@ fi
 ###############################################################################
 #
 echo "make txt file with official word list"
-rm -f $TXT_DICT_FILE
-echo "Toki Pona - official word list $TODAY"                                                               > $TXT_DICT_FILE
-echo "https://jan-lope.github.io"                                                                         >> $TXT_DICT_FILE
-echo ""                                                                                                   >> $TXT_DICT_FILE
+rm -f $TXT_FILE_WORD_LIST
+echo "Toki Pona - official word list $TODAY"                                                               > $TXT_FILE_WORD_LIST
+echo "https://jan-lope.github.io"                                                                         >> $TXT_FILE_WORD_LIST
+echo ""                                                                                                   >> $TXT_FILE_WORD_LIST
 fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
         sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
         sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
         sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
         sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
         sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
-        awk -F\@ '{print $2 "\n" $4 ": " $5 "\n"}'  >> $TXT_DICT_FILE
-if [ ! -f $TXT_DICT_FILE ]; then
+        awk -F\@ '{print $2 "\n" $4 ": " $5 "\n"}'  >> $TXT_FILE_WORD_LIST
+if [ ! -f $TXT_FILE_WORD_LIST ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -f _build/$TXT_DICT_FILE
-cp $TXT_DICT_FILE _build/
-if [ ! -f _build/$TXT_DICT_FILE ]; then
+rm -f _build/$TXT_FILE_WORD_LIST
+cp $TXT_FILE_WORD_LIST _build/
+if [ ! -f _build/$TXT_FILE_WORD_LIST ]; then
 	echo "ERROR"
 	exit 1
 fi
@@ -309,75 +309,75 @@ fi
 #
 #
 echo "make rtf file with official word list"
-rm -f $LATEX_FILE_WORD_LIST.tex
-rm -f $LATEX_FILE_WORD_LIST.rtf
-echo "\documentclass[10pt,a4paper]{article}"          > $LATEX_FILE_WORD_LIST.tex
-echo "\usepackage[utf8]{inputenc}"                   >> $LATEX_FILE_WORD_LIST.tex
-echo "\usepackage{amssymb}"                          >> $LATEX_FILE_WORD_LIST.tex
-echo "\begin{document}"                              >> $LATEX_FILE_WORD_LIST.tex
-echo "\title{Toki Pona - Dictionary}"                >> $LATEX_FILE_WORD_LIST.tex
-echo "\author{jan Lope https://jan-lope.github.io/}" >> $LATEX_FILE_WORD_LIST.tex
-echo "\date"                                         >> $LATEX_FILE_WORD_LIST.tex
-echo "\today"                                        >> $LATEX_FILE_WORD_LIST.tex
-echo "\maketitle"                                    >> $LATEX_FILE_WORD_LIST.tex
-echo "\begin{tabular}{lll}"                          >> $LATEX_FILE_WORD_LIST.tex
-fgrep "&&" dict.tex                                  >> $LATEX_FILE_WORD_LIST.tex
-echo "\end{tabular}"                                 >> $LATEX_FILE_WORD_LIST.tex
-echo "\end{document}"                                >> $LATEX_FILE_WORD_LIST.tex
-# latex $LATEX_FILE_WORD_LIST.tex
-# latex2html  $LATEX_FILE_WORD_LIST.tex 
-if [ ! -f $LATEX_FILE_WORD_LIST.tex ]; then
+rm -f $TEX_FILE_WORD_LIST.tex
+rm -f $TEX_FILE_WORD_LIST.rtf
+echo "\documentclass[10pt,a4paper]{article}"          > $TEX_FILE_WORD_LIST.tex
+echo "\usepackage[utf8]{inputenc}"                   >> $TEX_FILE_WORD_LIST.tex
+echo "\usepackage{amssymb}"                          >> $TEX_FILE_WORD_LIST.tex
+echo "\begin{document}"                              >> $TEX_FILE_WORD_LIST.tex
+echo "\title{Toki Pona - Dictionary}"                >> $TEX_FILE_WORD_LIST.tex
+echo "\author{jan Lope https://jan-lope.github.io/}" >> $TEX_FILE_WORD_LIST.tex
+echo "\date"                                         >> $TEX_FILE_WORD_LIST.tex
+echo "\today"                                        >> $TEX_FILE_WORD_LIST.tex
+echo "\maketitle"                                    >> $TEX_FILE_WORD_LIST.tex
+echo "\begin{tabular}{lll}"                          >> $TEX_FILE_WORD_LIST.tex
+fgrep "&&" dict.tex                                  >> $TEX_FILE_WORD_LIST.tex
+echo "\end{tabular}"                                 >> $TEX_FILE_WORD_LIST.tex
+echo "\end{document}"                                >> $TEX_FILE_WORD_LIST.tex
+# latex $TEX_FILE_WORD_LIST.tex
+# latex2html  $TEX_FILE_WORD_LIST.tex 
+if [ ! -f $TEX_FILE_WORD_LIST.tex ]; then
 	echo "ERROR"
 	exit 1
 fi
-latex2rtf $LATEX_FILE_WORD_LIST.tex
+latex2rtf $TEX_FILE_WORD_LIST.tex
 if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -f _build/$LATEX_FILE_WORD_LIST.rtf
-cp $LATEX_FILE_WORD_LIST.rtf _build/
-if [ ! -f _build/$LATEX_FILE_WORD_LIST.rtf ]; then
+rm -f _build/$TEX_FILE_WORD_LIST.rtf
+cp $TEX_FILE_WORD_LIST.rtf _build/
+if [ ! -f _build/$TEX_FILE_WORD_LIST.rtf ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -rf $LATEX_FILE_WORD_LIST*
+rm -rf $TEX_FILE_WORD_LIST*
 #
 ###############################################################################
 #
 echo "make man page of official word list"
-rm -f ./$MAN_FILE
-rm -f ./$MAN_FILE.gz
-echo ".TH man 6 $TODAY Toki Pona - Dictionary"   > $MAN_FILE
-echo ".SH NAME"                                 >> $MAN_FILE
-echo "Toki Pona - Dictionary"                   >> $MAN_FILE
-echo ".SH DESCRIPTION"                          >> $MAN_FILE
-echo "Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as 'the language of good. The simple way of life.' Toki Pona has only about 120 words."  >> $MAN_FILE
-echo ".SH DICTIONARY"                           >> $MAN_FILE
+rm -f ./$MAN_FILE_WORD_LIST
+rm -f ./$MAN_FILE_WORD_LIST.gz
+echo ".TH man 6 $TODAY Toki Pona - Dictionary"   > $MAN_FILE_WORD_LIST
+echo ".SH NAME"                                 >> $MAN_FILE_WORD_LIST
+echo "Toki Pona - Dictionary"                   >> $MAN_FILE_WORD_LIST
+echo ".SH DESCRIPTION"                          >> $MAN_FILE_WORD_LIST
+echo "Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as 'the language of good. The simple way of life.' Toki Pona has only about 120 words."  >> $MAN_FILE_WORD_LIST
+echo ".SH DICTIONARY"                           >> $MAN_FILE_WORD_LIST
 #
 fgrep "&&" dict.tex  | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
 	sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
 	sed -e 's#'@\ '#'@'#g' 	| sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
 	sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
-	awk -F\@ '{print "\n.PP\n.B " $2 "\n.br\n.SM\n" $4 ": " $5 "\n"}'  >> $MAN_FILE
-echo ".SH AUTHOR"                              >> $MAN_FILE
-echo "jan Lope https://jan-lope.github.io"     >> $MAN_FILE
-if [ ! -f $MAN_FILE ]; then
+	awk -F\@ '{print "\n.PP\n.B " $2 "\n.br\n.SM\n" $4 ": " $5 "\n"}'  >> $MAN_FILE_WORD_LIST
+echo ".SH AUTHOR"                              >> $MAN_FILE_WORD_LIST
+echo "jan Lope https://jan-lope.github.io"     >> $MAN_FILE_WORD_LIST
+if [ ! -f $MAN_FILE_WORD_LIST ]; then
 	echo "ERROR"
 	exit 1
 fi
-gzip $MAN_FILE
+gzip $MAN_FILE_WORD_LIST
 if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -f _build/$MAN_FILE.gz
-cp $MAN_FILE.gz _build/
-if [ ! -f _build/$MAN_FILE.gz ]; then
+rm -f _build/$MAN_FILE_WORD_LIST.gz
+cp $MAN_FILE_WORD_LIST.gz _build/
+if [ ! -f _build/$MAN_FILE_WORD_LIST.gz ]; then
 	echo "ERROR"
 	exit 1
 fi
-echo "sudo cp $MAN_FILE.gz /usr/share/man/man6/"
+echo "sudo cp $MAN_FILE_WORD_LIST.gz /usr/share/man/man6/"
 echo "man toki-pona"
 #
 ###############################################################################
