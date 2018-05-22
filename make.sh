@@ -7,6 +7,7 @@
 ###############################################################################
 #
 TEX_FILE="toki-pona-lessons_en"
+CSV_FILE_DICT="toki-pona_english.csv"
 TEX_FILE_WORD_LIST="nimi_pi_toki_pona"
 TXT_FILE_WORD_LIST="nimi_pi_toki_pona.txt"
 CSV_FILE_WORD_LIST="nimi_pi_toki_pona.csv"
@@ -257,6 +258,28 @@ fi
 # coffee -v
 rm -f _build/dictionary.coffee
 cp dictionary.html _build/
+#
+###############################################################################
+#
+echo "make a csv dictionary file "
+rm -f $CSV_FILE_DICT
+fgrep "&&" *.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
+        sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
+        sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
+        sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
+        sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
+        sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
+        awk -F\@ '{print "\"" $2 "\",\"" $4 "\",\"" $5 "\"" }' | sort | uniq >> $CSV_FILE_DICT
+if [ ! -f $CSV_FILE_DICT ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -f _build/$CSV_FILE_DICT
+cp $CSV_FILE_DICT _build/
+if [ ! -f _build/$CSV_FILE_DICT ]; then
+	echo "ERROR"
+	exit 1
+fi
 #
 ###############################################################################
 #
