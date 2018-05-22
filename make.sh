@@ -11,6 +11,7 @@ CSV_FILE_DICT="toki-pona_english.csv"
 TEX_FILE_WORD_LIST="nimi_pi_toki_pona"
 TXT_FILE_WORD_LIST="nimi_pi_toki_pona.txt"
 CSV_FILE_WORD_LIST="nimi_pi_toki_pona.csv"
+DICT_FILE_WORD_LIST="nimi_pi_toki_pona-dict.txt"
 MAN_FILE_WORD_LIST="toki-pona.6"
 TODAY=`date +"%Y-%m-%d"`
 #
@@ -363,6 +364,70 @@ if [ ! -f _build/$TEX_FILE_WORD_LIST.rtf ]; then
 	exit 1
 fi
 rm -rf $TEX_FILE_WORD_LIST*
+#
+###############################################################################
+#
+echo "make dictionary files: .dict and .index"
+rm -rf $DICT_FILE_DICT.txt
+rm -rf $DICT_FILE_DICT.dict 
+rm -rf $DICT_FILE_DICT.index
+fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
+        sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
+        sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
+        sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
+        sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
+        sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
+        awk -F\@ '{print ":" $2 ":" $4 " = " $5 }'  >> $DICT_FILE_DICT.txt
+dictfmt --utf8 --allchars -s "Toki Pona - English, $TODAY  https://jan-lope.github.io" -j $DICT_FILE_DICT < $DICT_FILE_DICT.txt
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+cp $DICT_FILE_DICT.dict _build/
+cp $DICT_FILE_DICT.index _build/
+if [ ! -f _build/$DICT_FILE_DICT.dict ]; then
+	echo "ERROR"
+	exit 1
+fi
+if [ ! -f _build/$DICT_FILE_DICT.index ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -rf $DICT_FILE_DICT.txt
+rm -rf $DICT_FILE_DICT.dict 
+rm -rf $DICT_FILE_DICT.index
+#
+###############################################################################
+#
+echo "make dictionary files: .dict and .index"
+rm -rf $DICT_FILE_WORD_LIST.txt
+rm -rf $DICT_FILE_WORD_LIST.dict 
+rm -rf $DICT_FILE_WORD_LIST.index
+fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
+        sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
+        sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
+        sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
+        sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
+        sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
+        awk -F\@ '{print ":" $2 ":" $4 " = " $5 }'  >> $DICT_FILE_WORD_LIST.txt
+dictfmt --utf8 --allchars -s "Toki Pona - English, $TODAY  https://jan-lope.github.io" -j $DICT_FILE_WORD_LIST < $DICT_FILE_WORD_LIST.txt
+if [ $? != 0  ]; then
+	echo "ERROR"
+	exit 1
+fi
+cp $DICT_FILE_WORD_LIST.dict _build/
+cp $DICT_FILE_WORD_LIST.index _build/
+if [ ! -f _build/$DICT_FILE_WORD_LIST.dict ]; then
+	echo "ERROR"
+	exit 1
+fi
+if [ ! -f _build/$DICT_FILE_WORD_LIST.index ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -rf $DICT_FILE_WORD_LIST.txt
+rm -rf $DICT_FILE_WORD_LIST.dict 
+rm -rf $DICT_FILE_WORD_LIST.index
 #
 ###############################################################################
 #
