@@ -368,34 +368,34 @@ rm -rf $TEX_FILE_WORD_LIST*
 ###############################################################################
 #
 echo "make dictionary files: .dict and .index"
-rm -rf $DICT_FILE_DICT.txt
-rm -rf $DICT_FILE_DICT.dict 
-rm -rf $DICT_FILE_DICT.index
+rm -rf $DICT_FILE_WORD_LIST.txt
+rm -rf $DICT_FILE_WORD_LIST.dict 
+rm -rf $DICT_FILE_WORD_LIST.index
 fgrep "&&" dict.tex  | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
         sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
         sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
         sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
         sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
         sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
-        awk -F\@ '{print ":" $2 ":" $4 " = " $5 }'  >> $DICT_FILE_DICT.txt
-dictfmt --utf8 --allchars -s "Toki Pona - English, $TODAY  https://jan-lope.github.io" -j $DICT_FILE_DICT < $DICT_FILE_DICT.txt
+        awk -F\@ '{print ":" $2 ":" $4 " = " $5 }'  >> $DICT_FILE_WORD_LIST.txt
+dictfmt --utf8 --allchars -s "Toki Pona - English, $TODAY  https://jan-lope.github.io" -j $DICT_FILE_WORD_LIST < $DICT_FILE_WORD_LIST.txt
 if [ $? != 0  ]; then
 	echo "ERROR"
 	exit 1
 fi
-cp $DICT_FILE_DICT.dict _build/
-cp $DICT_FILE_DICT.index _build/
-if [ ! -f _build/$DICT_FILE_DICT.dict ]; then
+cp $DICT_FILE_WORD_LIST.dict _build/
+cp $DICT_FILE_WORD_LIST.index _build/
+if [ ! -f _build/$DICT_FILE_WORD_LIST.dict ]; then
 	echo "ERROR"
 	exit 1
 fi
-if [ ! -f _build/$DICT_FILE_DICT.index ]; then
+if [ ! -f _build/$DICT_FILE_WORD_LIST.index ]; then
 	echo "ERROR"
 	exit 1
 fi
-rm -rf $DICT_FILE_DICT.txt
-rm -rf $DICT_FILE_DICT.dict 
-rm -rf $DICT_FILE_DICT.index
+rm -rf $DICT_FILE_WORD_LIST.txt
+rm -rf $DICT_FILE_WORD_LIST.dict 
+rm -rf $DICT_FILE_WORD_LIST.index
 #
 ###############################################################################
 #
