@@ -11,7 +11,7 @@ CSV_FILE_DICT="toki-pona_english.csv"
 TEX_FILE_WORD_LIST="nimi_pi_toki_pona"
 TXT_FILE_WORD_LIST="nimi_pi_toki_pona.txt"
 CSV_FILE_WORD_LIST="nimi_pi_toki_pona.csv"
-DICT_FILE_WORD_LIST="nimi_pi_toki_pona-dict.txt"
+DICT_FILE_WORD_LIST="nimi_pi_toki_pona-dict"
 MAN_FILE_WORD_LIST="toki-pona.6"
 TODAY=`date +"%Y-%m-%d"`
 #
