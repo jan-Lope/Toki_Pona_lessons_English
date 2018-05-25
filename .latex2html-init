@@ -54,7 +54,7 @@ $WORDS_IN_NAVIGATION_PANEL_TITLES = 12; # default = 4
 #  Proc., XXXX International Conference on YYY and ZZZ (XCYZ-84), 
 #  San Diego, 1984.<BR>\n" . $STDADDRESS;
 
-$MYNAMEHOME = "http://rowa.giso.de";
+$MYNAMEHOME = "https://jan-lope.github.io";
 $MYNAME = "<A href=\"" . $MYNAMEHOME . "/\"> Robert Warnke</A>";
 $MYNAMESHORT = "<A href=\"" . $MYNAMEHOME . "/\"> Robert Warnke </A>";
 
