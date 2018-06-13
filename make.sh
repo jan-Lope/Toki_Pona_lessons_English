@@ -13,6 +13,7 @@ TXT_FILE_WORD_LIST="nimi_pi_toki_pona.txt"
 CSV_FILE_WORD_LIST="nimi_pi_toki_pona.csv"
 DICT_FILE_WORD_LIST="nimi_pi_toki_pona-dict"
 MAN_FILE_WORD_LIST="toki-pona.6"
+OTM_JSON_FILE_WORD_LIST="nimi_pi_toki_pona.json"
 TODAY=`date +"%Y-%m-%d"`
 #
 ###############################################################################
@@ -465,6 +466,55 @@ if [ ! -f _build/$MAN_FILE_WORD_LIST.gz ]; then
 fi
 echo "sudo cp $MAN_FILE_WORD_LIST.gz /usr/share/man/man6/"
 echo "man toki-pona"
+#
+###############################################################################
+#
+echo "make txt file with official word list"
+rm -f $OTM_JSON_FILE_WORD_LIST
+echo '{'                                                                                        > $OTM_JSON_FILE_WORD_LIST
+echo '  "words" : ['                                                                           >> $OTM_JSON_FILE_WORD_LIST
+fgrep "&&" dict.tex | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" | sed -e 's#'\dots'#''#g' | sed -e 's#\\#''#g' | \
+        sed -e 's#'\glqq'#'\''#g' | sed -e 's#'\grqq'#'\''#g' | \
+        sed -e 's#'\textbf{'#'@'#g' | sed -e 's#'\textit{'#'@'#g' | sed -e 's#'}:'#'@'#g' | sed -e 's#'}'#'@'#g' | \
+        sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
+        sed -e 's#'\"'#'\'\''#g' | sed -e 's#'\&'#''#g' | \
+        sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | sed -e 's#'\ \ '#'\ '#g' | \
+        awk -F\@ '{print "    {\n    \"entry\" : {\n      \"id\" : "NR ",\n      \"form\" : \"" $2 "\"\n    },\n    \"translations\" : [ {\n      \"title\" : \"" $4 "\",\n      \"forms\" : [ \""$5"\" ]\n    } ],\n    \"tags\" : [ ],\n    \"contents\" : [ ],\n    \"variations\" : [ ],\n    \"relations\" : [ ]\n    } , "}'  >> $OTM_JSON_FILE_WORD_LIST
+sed -i '$ d' $OTM_JSON_FILE_WORD_LIST  # cut last line
+cat >> $OTM_JSON_FILE_WORD_LIST <<EOF 
+  } ],
+  "zpdic" : {
+    "alphabetOrder" : "",
+    "alphabetOrderType" : "UNICODE",
+    "punctuations" : [ "🗿" ],
+    "pronunciationTitle" : null,
+    "plainInformationTitles" : [ ],
+    "informationTitleOrder" : null,
+    "defaultWord" : {
+      "entry" : {
+        "id" : -1,
+        "form" : ""
+      },
+      "translations" : [ ],
+      "tags" : [ ],
+      "contents" : [ ],
+      "variations" : [ ],
+      "relations" : [ ]
+    }
+  },
+  "snoj" : null
+}
+EOF
+if [ ! -f $OTM_JSON_FILE_WORD_LIST ]; then
+	echo "ERROR"
+	exit 1
+fi
+rm -f _build/$OTM_JSON_FILE_WORD_LIST
+cp $OTM_JSON_FILE_WORD_LIST _build/
+if [ ! -f _build/$OTM_JSON_FILE_WORD_LIST ]; then
+	echo "ERROR"
+	exit 1
+fi
 #
 ###############################################################################
 #
