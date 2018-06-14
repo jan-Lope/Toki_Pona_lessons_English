@@ -1,0 +1,6141 @@
+{
+  "words" : [
+    {
+    "entry" : {
+      "id" : 1,
+      "form" : "."
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "A declarative sentence ends with a full stop. Don't use a full stop before or after the other separators 'e', 'la', 'li', 'pi', '.', '!', '?', ':'. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 2,
+      "form" : "!"
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "An imperative or an interjection sentence (exclamatory) ends with an exclamation mark. Don't use an exclamation mark before or after the other separators 'e', 'la', 'li', 'pi', '.', '!', '?', ':'. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 3,
+      "form" : "?"
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "An question (interrogative sentence) always ends with a question mark. Don't use a question mark before or after the other separators 'e', 'la', 'li', 'o', 'pi', '.', '!', '?', ':'. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 4,
+      "form" : ":"
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "A colon is between an hint sentences and a sentences. Before and after the colon has to be complete sentences. Don't use a colon before or after the other separators 'e', 'la', 'li', 'pi', '.', '!', '?', ':'. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 5,
+      "form" : ","
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "A comma is used after an 'o' to addressing people. Optional you can put a comma before a preposition. Don't use a comma before or after the separators 'e', 'la', 'pi', '.', '!', '?', ':'. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 6,
+      "form" : "''"
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "Quotation marks are used for words with original spelling or for quotes. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 7,
+      "form" : "'"
+    },
+    "translations" : [ {
+      "title" : "unofficial",
+      "forms" : [ "For clarification a empty verb slot can be marked with an apostrophe. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 8,
+      "form" : "#"
+    },
+    "translations" : [ {
+      "title" : "unofficial",
+      "forms" : [ "Number sign " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 9,
+      "form" : "a"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "ah, ha, uh, oh, ooh, aw, well (emotion word) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 10,
+      "form" : "a a a!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "laugh " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 11,
+      "form" : "akesi"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "amphibian-, reptilian-, slimy " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 12,
+      "form" : "akesi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "reptile, amphibian; non-cute animal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 13,
+      "form" : "ala"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "no, not, none, un- " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 14,
+      "form" : "ala"
+    },
+    "translations" : [ {
+      "title" : "adjective numeral",
+      "forms" : [ "null, 0 " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 15,
+      "form" : "ala"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "don't " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 16,
+      "form" : "ala!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "no! " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 17,
+      "form" : "ala"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "nothing, negation, zero " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 18,
+      "form" : "alasa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "hunting-, -hunting, hunting " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 19,
+      "form" : "alasa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "hunting " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 20,
+      "form" : "alasa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to hunt, to forage " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 21,
+      "form" : "ale"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "all, every, complete, whole (ale = ali), (depreciated) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 22,
+      "form" : "ale"
+    },
+    "translations" : [ {
+      "title" : "adjective numeral",
+      "forms" : [ "100 (official Toki Pona book) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 23,
+      "form" : "ale"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "always, forever, evermore, eternally (ale = ali), (depreciated) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 24,
+      "form" : "ale"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "everything, anything, life, the universe, (depreciated) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 25,
+      "form" : "ali"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "all, every, complete, whole (ale = ali) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 26,
+      "form" : "ali"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "always, forever, evermore, eternally (ale = ali) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 27,
+      "form" : "ali"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "everything, anything, life, the universe " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 28,
+      "form" : "anpa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "low, lower, bottom, down " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 29,
+      "form" : "anpa"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "downstairs, below, deep, low, deeply " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 30,
+      "form" : "anpa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "bottom, lower part, under, below, floor, beneath " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 31,
+      "form" : "anpa"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to prostrate oneself " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 32,
+      "form" : "anpa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to defeat, to beat, to vanquish, to conquer, to enslave " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 33,
+      "form" : "ante"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "different, dissimilar, changed, other, unequal, differential " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 34,
+      "form" : "ante"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "difference, distinction, differential, variation, variance, disagreement " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 35,
+      "form" : "ante la "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "if difference, if variance, if disagreement " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 36,
+      "form" : "ante (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to change, to alter, to modify " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 37,
+      "form" : "anu "
+    },
+    "translations" : [ {
+      "title" : "conjunction",
+      "forms" : [ "or (used for decision questions) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 38,
+      "form" : "awen"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "remaining, stationary, permanent, sedentary " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 39,
+      "form" : "awen"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "still, yet " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 40,
+      "form" : "awen"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "inertia, continuity, continuum, stay " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 41,
+      "form" : "awen"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to stay, to wait,to remain " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 42,
+      "form" : "awen (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to keep " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 43,
+      "form" : "e "
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "An 'e' introduces a direct object. Don't use 'e' before or after the other separators 'e', 'la', 'li', 'pi', 'o', '.', '!', '?', ':', ','. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 44,
+      "form" : "en "
+    },
+    "translations" : [ {
+      "title" : "conjunction",
+      "forms" : [ "and (used to coordinate head nouns) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 45,
+      "form" : "esun"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "commercial, trade, marketable, for sale, salable, deductible " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 46,
+      "form" : "esun"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "market, shop, fair, bazaar, business, transaction " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 47,
+      "form" : "esun (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to buy, to sell, to barter, to swap " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 48,
+      "form" : "ijo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "of something " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 49,
+      "form" : "ijo"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "of something " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 50,
+      "form" : "ijo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "thing, something, stuff, anything, object " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 51,
+      "form" : "ijo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to objectify " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 52,
+      "form" : "ike"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "bad, negative, wrong, evil, overly complex " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 53,
+      "form" : "ike"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "bad, negative, wrong, evil, overly complex " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 54,
+      "form" : "ike!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "oh dear! woe! alas! " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 55,
+      "form" : "ike"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "negativity, badness, evil " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 56,
+      "form" : "ike la "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "if negativity, if badness, if evil " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 57,
+      "form" : "ike"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to be bad, to suck " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 58,
+      "form" : "ike (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to make bad, to worsen " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 59,
+      "form" : "ilo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "useful " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 60,
+      "form" : "ilo"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "usefully " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 61,
+      "form" : "ilo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "tool, device, machine, thing used for a specific purpose " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 62,
+      "form" : "insa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "inner, internal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 63,
+      "form" : "insa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "inside, inner world, centre, stomach " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 64,
+      "form" : "jaki"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "dirty, gross, filthy, obscene " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 65,
+      "form" : "jaki"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "dirty, gross, filthy " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 66,
+      "form" : "jaki!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "ew! yuck! " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 67,
+      "form" : "jaki"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "dirt, pollution, garbage, filth, feces " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 68,
+      "form" : "jaki (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to pollute, to dirty " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 69,
+      "form" : "jan"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "human, somebody's, personal, of people " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 70,
+      "form" : "jan"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "human, somebody's, personal, of people " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 71,
+      "form" : "jan"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "person, people, human, being, somebody, anybody " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 72,
+      "form" : "jan (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to personify, to humanize, to personalize " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 73,
+      "form" : "jelo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "yellowish, yellowy " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 74,
+      "form" : "jelo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "yellow, light green " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 75,
+      "form" : "jo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "private, personal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 76,
+      "form" : "jo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "having, possessions, content " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 77,
+      "form" : "jo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to have, to contain " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 78,
+      "form" : "jo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to get " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 79,
+      "form" : "kala"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "fish- " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 80,
+      "form" : "kala"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "fish, marine animal, sea creature " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 81,
+      "form" : "kalama"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "noisy, loud, rowdy " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 82,
+      "form" : "kalama"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "sound, noise, voice " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 83,
+      "form" : "kalama"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to make noise " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 84,
+      "form" : "kalama (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to sound, to ring, to play (an instrument) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 85,
+      "form" : "kama"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "coming, future " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 86,
+      "form" : "kama"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "coming, future " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 87,
+      "form" : "kama"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "event, happening, chance, arrival, beginning " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 88,
+      "form" : "kama"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to come, to become, to arrive, to happen " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 89,
+      "form" : "kama "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to become, to mange to " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 90,
+      "form" : "kama (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to bring about, to summon " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 91,
+      "form" : "kasi"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "vegetable, vegetal, biological, biologic, leafy " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 92,
+      "form" : "kasi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "plant, vegetation, herb, leaf " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 93,
+      "form" : "kasi"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to grow " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 94,
+      "form" : "kasi (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to plant, to grow " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 95,
+      "form" : "ken"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "possibility, ability, power to do things, permission " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 96,
+      "form" : "ken la "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "if possibility, if ability, if permission " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 97,
+      "form" : "ken"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "can, is able to, is allowed to, may, is possible " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 98,
+      "form" : "ken "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to can, may " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 99,
+      "form" : "ken (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to make possible, to enable, to allow, to permit " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 100,
+      "form" : "kepeken"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "use, usage, tool " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 101,
+      "form" : "kepeken "
+    },
+    "translations" : [ {
+      "title" : "preposition",
+      "forms" : [ "with, using " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 102,
+      "form" : "kepeken"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to use " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 103,
+      "form" : "kepeken "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to use " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 104,
+      "form" : "kili"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "fruity " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 105,
+      "form" : "kili"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "fruity " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 106,
+      "form" : "kili"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "fruit, pulpy vegetable, mushroom " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 107,
+      "form" : "kin"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "indeed, still, too kin can be the very last word in an adjective group. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 108,
+      "form" : "kin"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "actually, indeed, in fact, really, objectively, kin can be the very last word in an adverb group. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 109,
+      "form" : "kin!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "really! " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 110,
+      "form" : "kin"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "reality, fact " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 111,
+      "form" : "kin la "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "if reality, if fact " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 112,
+      "form" : "kipisi "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "section, fragment, slice " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 113,
+      "form" : "kipisi (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to cut " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 114,
+      "form" : "kiwen"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "hard, solid, stone-like, made of stone or metal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 115,
+      "form" : "kiwen"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "hard, solid, stone-like, made of stone or metal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 116,
+      "form" : "kiwen"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "hard thing, rock, stone, metal, mineral, clay " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 117,
+      "form" : "kiwen (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to solidify, to harden, to petrify, to fossilize " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 118,
+      "form" : "ko"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "semi-solid or squishy substance; clay, dough, glue, paste, powder, gum " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 119,
+      "form" : "ko (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to squash, to pulverize " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 120,
+      "form" : "kon"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "air-like, ethereal, gaseous " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 121,
+      "form" : "kon"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "air-like, ethereal, gaseous " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 122,
+      "form" : "kon"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "air, wind, smell, soul " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 123,
+      "form" : "kon"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive:",
+      "forms" : [ "to breathe " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 124,
+      "form" : "kon (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to blow away something, to puff away something " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 125,
+      "form" : "kule"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "colourful, pigmented, painted " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 126,
+      "form" : "kule"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "color, colour, paint, ink, dye, hue " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 127,
+      "form" : "kule (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to paint, to color " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 128,
+      "form" : "kulupu"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "communal, shared, public, of the society " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 129,
+      "form" : "kulupu"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "group, community, society, company, people " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 130,
+      "form" : "kulupu (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to assemble, to call together, to convene " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 131,
+      "form" : "kute"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "auditory, hearing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 132,
+      "form" : "kute"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "hearing, ear " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 133,
+      "form" : "kute (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to hear, to listen, " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 134,
+      "form" : "la "
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "A 'la' is between a conditional phrases and the main sentence. A context phrase can be sentence, half sentence or noun. Don't use 'la' before or after the other separators 'e', 'li', 'pi', '.', '!', '?', ':', ','. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 135,
+      "form" : "lape"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "sleeping, of sleep, dormant " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 136,
+      "form" : "lape"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "asleep " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 137,
+      "form" : "lape"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "sleep, rest " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 138,
+      "form" : "lape"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to sleep, to rest " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 139,
+      "form" : "lape (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to knock out " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 140,
+      "form" : "laso"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "bluish, bluey " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 141,
+      "form" : "laso"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "blue, blue-green " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 142,
+      "form" : "lawa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "main, leading, in charge " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 143,
+      "form" : "lawa"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "main, leading, in charge " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 144,
+      "form" : "lawa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "head, mind " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 145,
+      "form" : "lawa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to lead, to control, to rule, to steer " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 146,
+      "form" : "len"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "dressed, clothed, costumed, dressed up " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 147,
+      "form" : "len"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "clothing, cloth, fabric, network, internet " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 148,
+      "form" : "len (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to wear, to be dressed, to dress " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 149,
+      "form" : "lete"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "cold, cool, uncooked, raw, perishing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 150,
+      "form" : "lete"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "bleakly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 151,
+      "form" : "lete"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "cold, chill, bleakness " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 152,
+      "form" : "lete (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to cool down, to chill " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 153,
+      "form" : "li "
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "It separates the subject phrase, except 'mi' and 'sina', from the predicate phrase. Don't use 'li' before or after the other separators 'e', 'la', 'o', 'pi', '.', '!', '?', ':', ','. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 154,
+      "form" : "lili"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "small, little, young, a bit, short, few, less " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 155,
+      "form" : "lili"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "small, little, young, a bit, short, few, less " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 156,
+      "form" : "lili"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "smallness, youth, immaturity " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 157,
+      "form" : "lili (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to reduce, to shorten, to shrink, to lessen " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 158,
+      "form" : "linja"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "elongated, oblong, long " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 159,
+      "form" : "linja"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "long and flexible thing; string, rope, hair, thread, cord, chain, line, yarn " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 160,
+      "form" : "lipu"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "book-, paper-, card-, ticket-, sheet-, page,- " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 161,
+      "form" : "lipu"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "paper, book, card, ticket, sheet, (web-)page, list ; flat and bendable thing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 162,
+      "form" : "loje"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "reddish, ruddy, pink, pinkish, gingery " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 163,
+      "form" : "loje"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "red " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 164,
+      "form" : "lon"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "true, existing, correct, real, genuine " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 165,
+      "form" : "lon"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "existence, being, presence " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 166,
+      "form" : "lon "
+    },
+    "translations" : [ {
+      "title" : "preposition",
+      "forms" : [ "be (located) in/at/on " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 167,
+      "form" : "lon"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to be there, to be present, to be real/true, to exist " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 168,
+      "form" : "luka"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "tangible, palpable " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 169,
+      "form" : "luka"
+    },
+    "translations" : [ {
+      "title" : "adjective numeral",
+      "forms" : [ "five, 5 " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 170,
+      "form" : "luka"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "arm, hand, tacticle organ " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 171,
+      "form" : "lukin"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "visual(ly) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 172,
+      "form" : "lukin"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "visual(ly) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 173,
+      "form" : "lukin"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "view, look, glance, sight, gaze, glimpse, seeing, vision " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 174,
+      "form" : "lukin"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to look, to watch out, to pay attention " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 175,
+      "form" : "lukin (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to see, to look at, to watch, to read " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 176,
+      "form" : "lukin "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to seek to, try to, look for " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 177,
+      "form" : "lupa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "hole-, holey, full of holes " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 178,
+      "form" : "lupa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "hole, orifice, door, window " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 179,
+      "form" : "lupa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to pierce, to stab, to perforate " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 180,
+      "form" : "ma"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "countrified, outdoor, alfresco, open-air " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 181,
+      "form" : "ma"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "land, earth, country, (outdoor) area " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 182,
+      "form" : "mama"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "of the parent, parental, maternal, fatherly, motherly, mumsy " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 183,
+      "form" : "mama"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "parent, mother, father " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 184,
+      "form" : "mama (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to mother sb., to wet-nurse, mothering " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 185,
+      "form" : "mani"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "financial, financially, monetary, pecuniary " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 186,
+      "form" : "mani"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "financially " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 187,
+      "form" : "mani"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "money, material wealth, currency, dollar, capital " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 188,
+      "form" : "meli"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "female, feminine, womanly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 189,
+      "form" : "meli"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "woman, female, girl, wife, girlfriend " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 190,
+      "form" : "mi"
+    },
+    "translations" : [ {
+      "title" : "personal pronoun",
+      "forms" : [ "I, we " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 191,
+      "form" : "mi"
+    },
+    "translations" : [ {
+      "title" : "possessive pronoun",
+      "forms" : [ "my, our " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 192,
+      "form" : "e mi"
+    },
+    "translations" : [ {
+      "title" : "reflexive pronoun",
+      "forms" : [ "myself, ourselves " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 193,
+      "form" : "mije"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "male, masculine, manly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 194,
+      "form" : "mije"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "man, male, husband, boyfriend " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 195,
+      "form" : "moku"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "eating " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 196,
+      "form" : "moku"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "eating " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 197,
+      "form" : "moku"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "food, meal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 198,
+      "form" : "moku (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to eat, to drink, to swallow, to ingest, to consume " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 199,
+      "form" : "moli"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "dead, dying, fatal, deadly, lethal, mortal, deathly, killing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 200,
+      "form" : "moli"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "mortally " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 201,
+      "form" : "moli"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "death, decease " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 202,
+      "form" : "moli"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to die, to be dead " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 203,
+      "form" : "moli (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to kill " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 204,
+      "form" : "moli"
+    },
+    "translations" : [ {
+      "title" : "intransitives verb",
+      "forms" : [ "dieing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 205,
+      "form" : "monsi"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "back, rear " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 206,
+      "form" : "monsi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "back, rear end, butt, behind " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 207,
+      "form" : "monsuta"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "fearful, afraid " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 208,
+      "form" : "monsuta"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "monster, monstrosity, fearful thing, fright, mythical creatures, fear " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 209,
+      "form" : "mu"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "animal nois- " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 210,
+      "form" : "mu"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "animal nois- " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 211,
+      "form" : "mu!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "woof! meow! moo! etc. (cute animal noise) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 212,
+      "form" : "mu"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "animal noise " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 213,
+      "form" : "mu"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to communicate animally " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 214,
+      "form" : "mu (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to make animal noise " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 215,
+      "form" : "mun"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "lunar " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 216,
+      "form" : "mun"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "moon, lunar, night sky object, star " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 217,
+      "form" : "musi"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "artful, fun, recreational " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 218,
+      "form" : "musi"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "cheerfully " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 219,
+      "form" : "musi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "fun, playing, game, recreation, art, entertainment " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 220,
+      "form" : "musi"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to play, to have fun " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 221,
+      "form" : "musi (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to amuse, to entertain " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 222,
+      "form" : "mute"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "many, very, much, several, a lot, abundant, numerous, more " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 223,
+      "form" : "mute"
+    },
+    "translations" : [ {
+      "title" : "adjective numeral",
+      "forms" : [ "20 (official Toki Pona book) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 224,
+      "form" : "mute"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "many, very, much, several, a lot, abundant, numerous, more " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 225,
+      "form" : "mute"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "amount, quantity " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 226,
+      "form" : "mute (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to make many or much " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 227,
+      "form" : "namako"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "spicy, piquant " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 228,
+      "form" : "namako"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "spice, something extra, food additive, accessory " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 229,
+      "form" : "namako (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to spice, to flavor, to decorate " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 230,
+      "form" : "nanpa "
+    },
+    "translations" : [ {
+      "title" : "adjective numeral",
+      "forms" : [ "To build ordinal numbers. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 231,
+      "form" : "nanpa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "number, numeral " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 232,
+      "form" : "nanpa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to count, to reckon, to number " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 233,
+      "form" : "nasa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "silly, crazy, foolish, drunk, strange, stupid, weird " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 234,
+      "form" : "nasa"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "silly, crazy, foolish, drunk, strange, stupid, weird " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 235,
+      "form" : "nasa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "stupidity, foolishness, silliness, nonsense, idiocy, obtuseness, muddler " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 236,
+      "form" : "nasa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to drive crazy, to make weird " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 237,
+      "form" : "nasin"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "systematic, habitual, customary, doctrinal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 238,
+      "form" : "nasin"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "way, manner, custom, road, path, doctrine, system, method " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 239,
+      "form" : "nena"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "hilly, undulating, mountainous, hunchbacked, humpbacked, bumpy " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 240,
+      "form" : "nena"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "bump, hill, extrusion, button, mountain, nose, protuberance " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 241,
+      "form" : "ni"
+    },
+    "translations" : [ {
+      "title" : "adjective demonstrative pronoun",
+      "forms" : [ "this, that " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 242,
+      "form" : "ni"
+    },
+    "translations" : [ {
+      "title" : "noun demonstrative pronoun",
+      "forms" : [ "this, that " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 243,
+      "form" : "nimi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "word, name " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 244,
+      "form" : "nimi (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to name " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 245,
+      "form" : "noka"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "foot-, lower, bottom " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 246,
+      "form" : "noka "
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "on foot " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 247,
+      "form" : "noka"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "leg, foot; organ of locomotion; bottom, lower part " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 248,
+      "form" : "o!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "hey! (calling somebody's attention) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 249,
+      "form" : "o, "
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "adressing people " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 250,
+      "form" : "o !"
+    },
+    "translations" : [ {
+      "title" : "subject",
+      "forms" : [ "An 'o' is used for imperative (commands). 'o' replace the subject. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 251,
+      "form" : "o !"
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "An 'o' is used for imperative (commands): 'o' replace 'li'. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 252,
+      "form" : "oko"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "optical, eye- " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 253,
+      "form" : "oko"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "eye " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 254,
+      "form" : "olin"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "love " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 255,
+      "form" : "olin"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "love " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 256,
+      "form" : "olin (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to love (a person) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 257,
+      "form" : "ona"
+    },
+    "translations" : [ {
+      "title" : "personal pronoun",
+      "forms" : [ "she, he, it, they " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 258,
+      "form" : "ona"
+    },
+    "translations" : [ {
+      "title" : "possessive pronoun",
+      "forms" : [ "her, his, its " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 259,
+      "form" : "e ona"
+    },
+    "translations" : [ {
+      "title" : "reflexive pronoun",
+      "forms" : [ "himself, herself, itself, themselves " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 260,
+      "form" : "open"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "initial, starting, opening " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 261,
+      "form" : "open"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "start, beginning, opening " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 262,
+      "form" : "open la "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "at the opening, in the beginning " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 263,
+      "form" : "open (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to open, to start, to begin, to turn on " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 264,
+      "form" : "open "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to begin, to start " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 265,
+      "form" : "pakala"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "destroyed, ruined, demolished, shattered, wrecked " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 266,
+      "form" : "pakala"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "destroyed, ruined, demolished, shattered, wrecked " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 267,
+      "form" : "pakala!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "damn! fuck! " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 268,
+      "form" : "pakala"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "blunder, accident, mistake, destruction, damage, breaking " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 269,
+      "form" : "pakala"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to screw up, to fall apart, to break " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 270,
+      "form" : "pakala (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to screw up, to ruin, to break, to hurt, to injure, to damage " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 271,
+      "form" : "pali"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "active, work-related, operating, working " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 272,
+      "form" : "pali"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "actively, briskly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 273,
+      "form" : "pali"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "activity, work, deed, project " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 274,
+      "form" : "pali"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to act, to work, to function " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 275,
+      "form" : "pali (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to do, to make, to build, to create " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 276,
+      "form" : "palisa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "long " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 277,
+      "form" : "palisa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "long hard thing; branch, rod, stick, pointy thing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 278,
+      "form" : "palisa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to stretch, to beat, to poke, to stab, to sexually arouse " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 279,
+      "form" : "pan"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "cereal, grain; barley, corn, oat, rice, wheat; bread, pasta " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 280,
+      "form" : "pan (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to sow " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 281,
+      "form" : "pana"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "generous " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 282,
+      "form" : "pana"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "giving, transfer, exchange " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 283,
+      "form" : "pana (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to give, to put, to send, to place, to release, to emit, to cause " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 284,
+      "form" : "pi "
+    },
+    "translations" : [ {
+      "title" : "separator",
+      "forms" : [ "'pi' is used to build complex compound nouns. 'pi' separates a (pro)noun from another (pro)noun that has at least one adjective. After 'pi' could only be a noun or pronoun. Don't use 'pi' before or after the other separators 'e', 'la', 'li', 'o', '.', '!', '?', ':'. " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 285,
+      "form" : "pilin"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "sensitive, feeling, empathic " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 286,
+      "form" : "pilin"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "perceptively " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 287,
+      "form" : "pilin"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "feelings, emotion, feel, think, sense, touch, " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 288,
+      "form" : "pilin"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to feel, to sense " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 289,
+      "form" : "pilin (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to feel, to think, to touch, to fumble, to fiddle " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 290,
+      "form" : "pimeja"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "black, dark " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 291,
+      "form" : "pimeja"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "darkness, shadows " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 292,
+      "form" : "pimeja (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to darken " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 293,
+      "form" : "pini"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "completed, finished, past, done " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 294,
+      "form" : "pini"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "ago, past, perfectly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 295,
+      "form" : "pini"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "end, tip " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 296,
+      "form" : "pini (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to end, to stop, to turn off, to finish, to close " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 297,
+      "form" : "pini "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to stop, to finish, to end, to interrupt " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 298,
+      "form" : "pipi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "bug, insect, spider " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 299,
+      "form" : "poka"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "neighbouring " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 300,
+      "form" : "poka"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "side, hip, next to " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 301,
+      "form" : "poki"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "container, box, bowl, cup, glass " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 302,
+      "form" : "poki (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to box up, to put in, to can, to bottle " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 303,
+      "form" : "pona"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "good, simple, positive, nice, correct, right " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 304,
+      "form" : "pona"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "good, simple, positive, nice, correct, right " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 305,
+      "form" : "pona!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "great! good! thanks! OK! cool! yay! " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 306,
+      "form" : "pona"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "good, simplicity, positivity " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 307,
+      "form" : "pona la "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "if good, if simplicity, if positivity " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 308,
+      "form" : "pona (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to improve, to fix, to repair, to make good " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 309,
+      "form" : "pu"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "buying and interacting with the official Toki Pona book " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 310,
+      "form" : "pu"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "buying and interacting with the official Toki Pona book " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 311,
+      "form" : "pu "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to buying and interacting with the official Toki Pona book " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 312,
+      "form" : "pu"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to buy and to read (the official Toki Pona book) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 313,
+      "form" : "pu (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to apply (the official Toki Pona book) to " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 314,
+      "form" : "sama"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "same, similar, equal, of equal status or position " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 315,
+      "form" : "sama"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "just as, equally, exactly the same, just the same, similarly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 316,
+      "form" : "sama"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "equality, parity, equity, identity, par, sameness " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 317,
+      "form" : "sama la "
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "in case of equality, if parity, on identity " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 318,
+      "form" : "sama "
+    },
+    "translations" : [ {
+      "title" : "preposition",
+      "forms" : [ "like, as, seem " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 319,
+      "form" : "sama (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to equate, to make equal, to make similar to " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 320,
+      "form" : "seli"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "hot, warm, cooked " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 321,
+      "form" : "seli"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "hot, warm, cooked " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 322,
+      "form" : "seli"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "fire, warmth, heat " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 323,
+      "form" : "seli (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to heat, to warm up, to cook " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 324,
+      "form" : "selo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "skin, outer form, bark, peel, shell, skin, boundary, shape " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 325,
+      "form" : "selo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to shelter, to protect, to guard " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 326,
+      "form" : "seme"
+    },
+    "translations" : [ {
+      "title" : "question pronoun",
+      "forms" : [ "what, which, wh- (question word) " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 327,
+      "form" : "sewi"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "superior, elevated, religious, formal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 328,
+      "form" : "sewi"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "superior, elevated, religious, formal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 329,
+      "form" : "sewi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "high, up, above, top, over, on " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 330,
+      "form" : "sewi"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to get up " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 331,
+      "form" : "sewi (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to lift " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 332,
+      "form" : "sijelo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "physical, bodily, corporal, corporeal, material, carnal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 333,
+      "form" : "sijelo"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "physically, bodily " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 334,
+      "form" : "sijelo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "body (of person or animal), physical state, torso " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 335,
+      "form" : "sijelo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to heal, to heal up, to cure " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 336,
+      "form" : "sike"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "round, cyclical, of one year " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 337,
+      "form" : "sike"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "rotated " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 338,
+      "form" : "sike"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "circle, ball, cycle, sphere, wheel; round or circular thing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 339,
+      "form" : "sike (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to orbit, to circle, to revolve, to circle around, to rotate " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 340,
+      "form" : "sin"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "new, fresh, another, more " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 341,
+      "form" : "sin "
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "regenerative " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 342,
+      "form" : "sin"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "news, novelty, innovation, newness, new release " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 343,
+      "form" : "sin (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to renew, to renovate, to freshen " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 344,
+      "form" : "sina"
+    },
+    "translations" : [ {
+      "title" : "personal pronoun",
+      "forms" : [ "you " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 345,
+      "form" : "sina"
+    },
+    "translations" : [ {
+      "title" : "possessive pronoun",
+      "forms" : [ "yours " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 346,
+      "form" : "e sina"
+    },
+    "translations" : [ {
+      "title" : "reflexive pronoun",
+      "forms" : [ "yourself, yourselves " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 347,
+      "form" : "sinpin"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "facial, frontal, anterior, vertical " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 348,
+      "form" : "sinpin"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "face, foremost, front, wall, chest, torso " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 349,
+      "form" : "sitelen"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "figurative, pictorial, metaphorical, metaphorisch " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 350,
+      "form" : "sitelen"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "pictorially " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 351,
+      "form" : "sitelen"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "picture, image, representation, symbol, mark, writing " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 352,
+      "form" : "sitelen (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to draw, to write " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 353,
+      "form" : "sona"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "knowing, cognizant, shrewd " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 354,
+      "form" : "sona"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "knowledge, wisdom, intelligence, understanding " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 355,
+      "form" : "sona"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to know, to understand " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 356,
+      "form" : "sona (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to know, to understand, to know how to " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 357,
+      "form" : "sona (e )"
+    },
+    "translations" : [ {
+      "title" : "transitives verb",
+      "forms" : [ "to learn, to study " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 358,
+      "form" : "sona "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to know how to " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 359,
+      "form" : "soweli"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "animal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 360,
+      "form" : "soweli"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "animal, especially land mammal, lovable animal, beast " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 361,
+      "form" : "suli"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "big, tall, long, adult, important " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 362,
+      "form" : "suli"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "big, tall, long, adult, important " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 363,
+      "form" : "suli"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "size " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 364,
+      "form" : "suli (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to enlarge, to lengthen " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 365,
+      "form" : "suno"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "sunny, sunnily " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 366,
+      "form" : "suno"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "sunny, sunnily " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 367,
+      "form" : "suno"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "sun, light " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 368,
+      "form" : "suno (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to light, to illumine " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 369,
+      "form" : "supa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "flat, shallow, flat-bottomed, horizontal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 370,
+      "form" : "supa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "horizontal surface, e.g furniture, table, chair, pillow, floor " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 371,
+      "form" : "suwi"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "sweet, cute " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 372,
+      "form" : "suwi"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "candy, sweet food " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 373,
+      "form" : "suwi (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to sweeten " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 374,
+      "form" : "tan"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "causal, " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 375,
+      "form" : "tan"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "origin, cause " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 376,
+      "form" : "tan "
+    },
+    "translations" : [ {
+      "title" : "preposition",
+      "forms" : [ "from, by, because of, since " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 377,
+      "form" : "tan"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to come from, originate from, come out of " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 378,
+      "form" : "taso"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "only, sole " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 379,
+      "form" : "taso"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "only, just, merely, simply, solely, singly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 380,
+      "form" : "taso "
+    },
+    "translations" : [ {
+      "title" : "conjunction",
+      "forms" : [ "but, however " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 381,
+      "form" : "tawa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "moving, mobile " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 382,
+      "form" : "tawa"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "moving, mobile " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 383,
+      "form" : "tawa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "movement, transportation " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 384,
+      "form" : "tawa "
+    },
+    "translations" : [ {
+      "title" : "preposition",
+      "forms" : [ "to, in order to, towards, for, until " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 385,
+      "form" : "tawa"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "go to, walk, travel, move, leave " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 386,
+      "form" : "tawa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to move, to displace " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 387,
+      "form" : "telo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "wett, slobbery, moist, damp, humid, sticky, sweaty, dewy, drizzly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 388,
+      "form" : "telo"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "wett, slobbery, moist, damp, humid, sticky, sweaty, dewy, drizzly " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 389,
+      "form" : "telo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "water, liquid, juice, sauce " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 390,
+      "form" : "telo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to water, to wash with water, to put water to, to melt, to liquify " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 391,
+      "form" : "tenpo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "temporal, chronological, chronologic " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 392,
+      "form" : "tenpo"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "chronologically " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 393,
+      "form" : "tenpo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "time, period of time, moment, duration, situation, occasion " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 394,
+      "form" : "toki"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "speaking, eloquent, linguistic, verbal, grammatical " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 395,
+      "form" : "toki"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "speaking, eloquent, linguistic, verbal, grammatical " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 396,
+      "form" : "toki!"
+    },
+    "translations" : [ {
+      "title" : "interjection",
+      "forms" : [ "hello, hi, good morning, " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 397,
+      "form" : "toki"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "language, speech, tongue, lingo, jargon, " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 398,
+      "form" : "toki"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to talk, to chat, to communicate " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 399,
+      "form" : "toki (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to speak, to talk, to say, to pronounce, to discourse " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 400,
+      "form" : "tomo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "urban, domestic, household " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 401,
+      "form" : "tomo"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "urban, domestic, household " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 402,
+      "form" : "tomo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "indoor constructed space, e.g. house, home, room, building " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 403,
+      "form" : "tomo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to build, to construct, to engineer " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 404,
+      "form" : "tu"
+    },
+    "translations" : [ {
+      "title" : "adjective numeral",
+      "forms" : [ "two, 2 " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 405,
+      "form" : "tu"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "duo, pair " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 406,
+      "form" : "tu (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to divide, to double, to separate, to cut in two " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 407,
+      "form" : "unpa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "erotic, sexual " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 408,
+      "form" : "unpa"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "erotic, sexual " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 409,
+      "form" : "unpa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "sex, sexuality " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 410,
+      "form" : "unpa"
+    },
+    "translations" : [ {
+      "title" : "verb intransitive",
+      "forms" : [ "to have sex " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 411,
+      "form" : "unpa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to have sex with, to sleep with, to fuck " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 412,
+      "form" : "uta"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "oral " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 413,
+      "form" : "uta"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "orally " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 414,
+      "form" : "uta"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "mouth, lips, oral cavity, jaw, beak " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 415,
+      "form" : "uta (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to kiss, to osculate, to oral stimulate, to suck " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 416,
+      "form" : "utala"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "fighting " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 417,
+      "form" : "utala"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "fighting " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 418,
+      "form" : "utala"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "conflict, disharmony, fight, war, battle, attack, violence " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 419,
+      "form" : "utala (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to hit, to strike, to attack, to compete against " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 420,
+      "form" : "walo"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "white, whitish, light-coloured, pale " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 421,
+      "form" : "walo"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "white thing or part, whiteness, lightness " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 422,
+      "form" : "walo (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to whiten, to whitewash " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 423,
+      "form" : "wan"
+    },
+    "translations" : [ {
+      "title" : "adjective numeral",
+      "forms" : [ "one, 1 " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 424,
+      "form" : "wan"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "unit, element, particle, part, piece " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 425,
+      "form" : "wan (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to unite, to make one " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 426,
+      "form" : "waso"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "bird- " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 427,
+      "form" : "waso"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "bird, bat; flying creature, winged animal " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 428,
+      "form" : "wawa"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "energetic, strong, fierce, intense, sure, confident " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 429,
+      "form" : "wawa"
+    },
+    "translations" : [ {
+      "title" : "adverb",
+      "forms" : [ "strongly, powerfully " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 430,
+      "form" : "wawa"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "energy, strength, power " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 431,
+      "form" : "wawa (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to strengthen, to energize, to empower " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 432,
+      "form" : "weka"
+    },
+    "translations" : [ {
+      "title" : "adjective",
+      "forms" : [ "absent, away, ignored " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 433,
+      "form" : "weka"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "absence " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 434,
+      "form" : "weka (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to remove, to eliminate, to throw away, to get rid of " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 435,
+      "form" : "wile"
+    },
+    "translations" : [ {
+      "title" : "noun",
+      "forms" : [ "desire, need, will " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 436,
+      "form" : "wile (e )"
+    },
+    "translations" : [ {
+      "title" : "verb transitive",
+      "forms" : [ "to want, need, wish, have to, must, will, should " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    } , 
+    {
+    "entry" : {
+      "id" : 437,
+      "form" : "wile "
+    },
+    "translations" : [ {
+      "title" : "auxiliary verb",
+      "forms" : [ "to want, need, wish, have to, must, will, should " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  } ],
+  "zpdic" : {
+    "alphabetOrder" : "",
+    "alphabetOrderType" : "UNICODE",
+    "punctuations" : [ "🗿" ],
+    "pronunciationTitle" : null,
+    "plainInformationTitles" : [ ],
+    "informationTitleOrder" : null,
+    "defaultWord" : {
+      "entry" : {
+        "id" : -1,
+        "form" : ""
+      },
+      "translations" : [ ],
+      "tags" : [ ],
+      "contents" : [ ],
+      "variations" : [ ],
+      "relations" : [ ]
+    }
+  },
+  "snoj" : null
+}
