@@ -36,11 +36,14 @@ If you get an error 404, please press the shift key and the reload button in you
 
 [txt](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.txt) | 
 [csv](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.csv) | 
-[rtf](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.rtf)  
+[rtf](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.rtf) |
+[otm-json](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona.json)  
 
 [dict](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona-dict.dict) | 
 [index](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/nimi_pi_toki_pona-dict.index) 
 DICT file format
+
+
 
 [unix man page](https://github.com/jan-Lope/Toki_Pona_lessons_English/raw/gh-pages/toki-pona.6.gz)
 Unix, Linux and Mac OS X: sudo cp toki-pona.6* /usr/share/man/man6/ ; man toki-pona
