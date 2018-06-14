@@ -300,7 +300,7 @@ cat _build/toki-pona_english.txt | iconv -f ISO-8859-1 -t UTF-8  | sed -e 's#'::
 		sed -e 's#'\ @'#'@'#g' | sed -e 's#'\ @'#'@'#g' | \
 		fgrep -v "adjective:" | fgrep -v "noun:" | fgrep -v "numeral:" | fgrep -v "verb:" | fgrep -v "conjunction:" | fgrep -v "interjection:" | \
 		fgrep -v "preposition:" | fgrep -v "separator:" | fgrep -v "subject:" | fgrep -v "unofficial:" | fgrep -v "transitive:"  | \
-        awk -F\@ '{print "    {\n    \"entry\" : {\n      \"id\" : "NR+10000 ",\n      \"form\" : \"" $1 "\"\n    },\n    \"translations\" : [ {\n      \"title\" : \" [ ],\n      \"forms\" : [ \""$2"\" ]\n    } ],\n    \"tags\" : [ ],\n    \"contents\" : [ ],\n    \"variations\" : [ ],\n    \"relations\" : [ ]\n    } , "}'  >> $OTM_JSON_FILE_DICTIONARY_FILE
+        awk -F\@ '{print "    {\n    \"entry\" : {\n      \"id\" : "NR+10000 ",\n      \"form\" : \"" $1 "\"\n    },\n    \"translations\" : [ {\n      \"title\" : [ ],\n      \"forms\" : [ \""$2"\" ]\n    } ],\n    \"tags\" : [ ],\n    \"contents\" : [ ],\n    \"variations\" : [ ],\n    \"relations\" : [ ]\n    } , "}'  >> $OTM_JSON_FILE_DICTIONARY_FILE
 sed -i '$ d' $OTM_JSON_FILE_DICTIONARY_FILE  # cut last line
 cat >> $OTM_JSON_FILE_DICTIONARY_FILE <<EOF 
   } ],
