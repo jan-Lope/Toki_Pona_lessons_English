@@ -63,9 +63,14 @@ Unix, Linux and Mac OS X: sudo cp toki-pona.6* /usr/share/man/man6/ ; man toki-p
 
 ## Source Codes
 
-The PDF, HTML, eBook and TXT Files are generated from the Latex files per [travis-ci.org](https://travis-ci.org/jan-Lope/Toki_Pona_lessons_English).
+The PDF, HTML, eBook and TXT files are generated from the Latex files per [travis-ci.org](https://travis-ci.org/jan-Lope/Toki_Pona_lessons_English).
 
 You can see the source code in [Github](https://github.com/jan-Lope/Toki_Pona_lessons_English).
+
+You can clone it per git client.
+
+    git clone https://github.com/jan-Lope/Toki_Pona_lessons_English.git
+
 
 ## Build by Hand
 
