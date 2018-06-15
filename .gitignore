@@ -50,6 +50,9 @@ tmp.*
 *.pdb
 *.cbz
 *.cbr
+*.csv
+*.rtf
+*.json
 
 # Build
 _build/
