@@ -297,7 +297,7 @@ fgrep "&&" dict.tex | iconv -f ISO-8859-1 -t UTF-8 | fgrep "\\" | fgrep -v "%" |
         awk -F\@ '{print "    {\n    \"entry\" : {\n      \"id\" : "NR ",\n      \"form\" : \"" $2 "\"\n    },\n    \"translations\" : [ {\n      \"title\" : \"" $4 "\",\n      \"forms\" : [ \""$5"\" ]\n    } ],\n    \"tags\" : [ ],\n    \"contents\" : [ ],\n    \"variations\" : [ ],\n    \"relations\" : [ ]\n    } , "}'  >> $OTM_JSON_FILE_DICTIONARY_FILE
 cat _build/toki-pona_english.txt | iconv -f ISO-8859-1 -t UTF-8  | sed -e 's#'::'#'@'#g' | fgrep -v "##"  | \
 		sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | sed -e 's#'@\ '#'@'#g' | \
-		sed -e 's#'\ @'#'@'#g' | sed -e 's#'\ @'#'@'#g' | \
+		sed -e 's#'\ @'#'@'#g' | sed -e 's#'\ @'#'@'#g' | sed -e 's#'\"'#'\\\\\"'#g' | \
 		fgrep -v "adjective:" | fgrep -v "noun:" | fgrep -v "numeral:" | fgrep -v "verb:" | fgrep -v "conjunction:" | fgrep -v "interjection:" | \
 		fgrep -v "preposition:" | fgrep -v "separator:" | fgrep -v "subject:" | fgrep -v "unofficial:" | fgrep -v "transitive:"  | \
         awk -F\@ '{print "    {\n    \"entry\" : {\n      \"id\" : "NR+10000 ",\n      \"form\" : \"" $1 "\"\n    },\n    \"translations\" : [ {\n      \"title\" : [ ],\n      \"forms\" : [ \""$2"\" ]\n    } ],\n    \"tags\" : [ ],\n    \"contents\" : [ ],\n    \"variations\" : [ ],\n    \"relations\" : [ ]\n    } , "}'  >> $OTM_JSON_FILE_DICTIONARY_FILE
