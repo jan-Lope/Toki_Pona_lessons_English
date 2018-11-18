@@ -7,8 +7,7 @@
 # Toki Pona - Lessons and Dictionary
 Unlike Esperanto, Toki Pona is a constructed language that favors simplicity over clarity, and touts itself as "the language of good. The simple way of life." 
 
-These lessons are based on the lessons (2015) of jan Pije ( [tokipona.net/tp/janpije](http://tokipona.net/tp/janpije/) ) and the offical Toki Pona book (first English edition 2014) of Sonja Lang ( [tokipona.org](http://tokipona.org) ) 
-
+These lessons  (first edition 2004) are based on the lessons (2003) of jan Pije ( [tokipona.net/tp/janpije](http://tokipona.net/tp/janpije/) ) and the offical Toki Pona book (2015) of Sonja Lang ( [tokipona.org](http://tokipona.org) ) 
  
 ## Lessons
 
