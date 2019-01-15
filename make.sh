@@ -1,7 +1,7 @@
 #!/bin/bash
 ###############################################################################
 #
-# Make pdf, booklet-pdf, epub, html and txt files for the English Toki Pona lessons 
+# Make pdf, booklet-pdf, epub, html and txt files for the English Toki Pona Lessons 
 # Robert Warnke
 #
 ###############################################################################
