@@ -1,0 +1,61 @@
+h1 {
+ font-size: large;
+ color: #000044;
+}
+
+h2 {
+ font-size: large;
+ color: #000044;
+}
+
+h3 {
+ color: #000044;
+}
+
+h4 {
+ color: #000044;
+}
+
+h5 {
+ color: #000044;
+}
+
+h6 {
+ color: #000044;
+}
+
+tt {
+ font-size: small;
+ font-family: Courier;
+ color: #006030;
+}
+
+pre {
+ font-size: small;
+ font-family: Courier;
+ color: #006030;
+}
+
+body {
+ font-family: Helvetica;
+}
+
+address {
+ font-size: smaller;
+}
+
+a {
+ text-decoration: none;
+}
+
+td {
+ font-family: Helvetica;
+}
+
+th {
+ font-family: Helvetica;
+}
+
+hr {
+ background: #CFCFCF;
+}
